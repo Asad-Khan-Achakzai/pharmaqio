@@ -1,4 +1,4 @@
-# Xgrid MarCom & Design Page
+# Pharmaqio
 
 This is a React application for Xgrid's Marcom & Design Page.
 
