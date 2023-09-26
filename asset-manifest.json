@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/pharmaqio/static/css/main.7326c23f.chunk.css",
-    "main.js": "/pharmaqio/static/js/main.51e228ea.chunk.js",
-    "main.js.map": "/pharmaqio/static/js/main.51e228ea.chunk.js.map",
+    "main.js": "/pharmaqio/static/js/main.f518ab17.chunk.js",
+    "main.js.map": "/pharmaqio/static/js/main.f518ab17.chunk.js.map",
     "runtime-main.js": "/pharmaqio/static/js/runtime-main.ab4c7044.js",
     "runtime-main.js.map": "/pharmaqio/static/js/runtime-main.ab4c7044.js.map",
     "static/css/2.277ec499.chunk.css": "/pharmaqio/static/css/2.277ec499.chunk.css",
-    "static/js/2.30d4cb8b.chunk.js": "/pharmaqio/static/js/2.30d4cb8b.chunk.js",
-    "static/js/2.30d4cb8b.chunk.js.map": "/pharmaqio/static/js/2.30d4cb8b.chunk.js.map",
+    "static/js/2.34d606b0.chunk.js": "/pharmaqio/static/js/2.34d606b0.chunk.js",
+    "static/js/2.34d606b0.chunk.js.map": "/pharmaqio/static/js/2.34d606b0.chunk.js.map",
     "index.html": "/pharmaqio/index.html",
-    "precache-manifest.092804e4e8168a3eadbef25c97e06e57.js": "/pharmaqio/precache-manifest.092804e4e8168a3eadbef25c97e06e57.js",
+    "precache-manifest.2180cc6f5291ec58613d62e82fbd902d.js": "/pharmaqio/precache-manifest.2180cc6f5291ec58613d62e82fbd902d.js",
     "service-worker.js": "/pharmaqio/service-worker.js",
     "static/css/2.277ec499.chunk.css.map": "/pharmaqio/static/css/2.277ec499.chunk.css.map",
     "static/css/main.7326c23f.chunk.css.map": "/pharmaqio/static/css/main.7326c23f.chunk.css.map",
-    "static/js/2.30d4cb8b.chunk.js.LICENSE.txt": "/pharmaqio/static/js/2.30d4cb8b.chunk.js.LICENSE.txt",
+    "static/js/2.34d606b0.chunk.js.LICENSE.txt": "/pharmaqio/static/js/2.34d606b0.chunk.js.LICENSE.txt",
     "static/media/404.svg": "/pharmaqio/static/media/404.0461497f.svg",
     "static/media/Alkira-Case-Study-desktop.webm": "/pharmaqio/static/media/Alkira-Case-Study-desktop.947c4bab.webm",
     "static/media/Alkira-case-study-mobile.mp4": "/pharmaqio/static/media/Alkira-case-study-mobile.6fc50336.mp4",
@@ -171,8 +171,8 @@
   "entrypoints": [
     "static/js/runtime-main.ab4c7044.js",
     "static/css/2.277ec499.chunk.css",
-    "static/js/2.30d4cb8b.chunk.js",
+    "static/js/2.34d606b0.chunk.js",
     "static/css/main.7326c23f.chunk.css",
-    "static/js/main.51e228ea.chunk.js"
+    "static/js/main.f518ab17.chunk.js"
   ]
 }

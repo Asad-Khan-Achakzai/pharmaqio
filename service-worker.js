@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pharmaqio/precache-manifest.092804e4e8168a3eadbef25c97e06e57.js"
+  "/pharmaqio/precache-manifest.2180cc6f5291ec58613d62e82fbd902d.js"
 );
 
 self.addEventListener('message', (event) => {
