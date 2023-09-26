@@ -32,7 +32,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "deploy": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build": "react-scripts build",
@@ -45,7 +46,8 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "4.0.0",
     "eslint-plugin-notice": "^0.7.8",
-    "eslint-plugin-prettier": "3.0.1"
+    "eslint-plugin-prettier": "3.0.1",
+    "gh-pages": "^6.0.0"
   },
   "browserslist": {
     "production": [
