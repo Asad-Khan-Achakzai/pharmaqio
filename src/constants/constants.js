@@ -201,7 +201,7 @@ import image404 from '../assets/images/404.svg';
 const constants = {
   ui: {
     urls: {
-      home: '/',
+      home: '/pharmaqio',
       services: '/services',
       thankYou: '/thank-you',
       Page404: '/404',

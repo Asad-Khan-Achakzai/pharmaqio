@@ -2,7 +2,7 @@
   "name": "pharmaqio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost/",
+  "homepage": "https://asad-khan-achakzai.github.io/pharmaqio",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -36,7 +36,7 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
   "eslintConfig": {
