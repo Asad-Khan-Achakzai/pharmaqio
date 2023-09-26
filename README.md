@@ -1,6 +1,6 @@
-# Xgrid MarCom & Design Page
+# Pharmaqio
 
-This is a React application for Xgrid's Marcom & Design Page.
+This is a React application for pharmaqio.
 
 # Local Environment
 ###  Install Dependencies
