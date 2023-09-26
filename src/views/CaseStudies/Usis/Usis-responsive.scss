@@ -1,0 +1,218 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+ @import "../../../assets/scss/mixins";
+
+
+ /**
+  * Media queries for Usis-case study page only not global
+  */
+@include media("320", "<=desktop") {
+  .nav--default {
+    visibility: visible !important;
+  }
+}
+ @include media(">600px", "<960px") {
+    #usis-section-1-main-wrapper .casestudy-header-wrapper{
+        .container-fluid .justify-content-center{
+            justify-content: left !important;
+        }
+        .container-fluid{
+            padding-top:2.5rem !important;
+        }
+    }
+    #usis-section-2-main-wrapper{
+        #component-design-1-main-wrapper .container-880 .content-wrapper-flex-bordered-items{
+            padding:3rem 1.5rem !important;
+        }
+    }
+    #usis-section-4-main-wrapper .container-880 .flex-colum-spaced{
+        padding: 2rem 1.5rem !important;
+    }
+    #usis-section-5-main-wrapper .container-880 .flex-colum-spaced{
+        padding: 2rem 1.5rem !important;
+    }
+    #usis-section-7-main-wrapper{
+        .container{
+            max-width:100% !important;
+            padding-right:1.5rem !important;
+            padding-left:1.5rem !important;
+        }
+        .row{
+            flex-direction: column-reverse;
+        }
+        .position-absolute{
+            position:relative !important;
+            top:5rem !important;
+        }
+        .row .col-md-6{
+            max-width: 100% !important;
+            flex: auto;
+        }
+    }
+ }
+ @include media("320", "<600px") {
+    
+    #usis-section-1-main-wrapper .casestudy-header-wrapper{
+        
+        .container-fluid .justify-content-between{
+            justify-content: center !important;
+        }
+        .container-880 .container-inner-wrapper .content-wrapper{
+            h1{
+                text-align: center;
+            }
+            .project-details{
+                p{
+                    font-size:12px;
+                }
+                .align-items-center{
+                    justify-content: center !important;
+                }
+            }
+            .services-details{
+                .d-flex{
+                    flex-wrap:wrap;
+                }
+                .align-items-center{
+                    justify-content: center !important;
+                }
+            }
+            .pt-4{
+                text-align: center !important;
+            }
+        }
+    }
+    .component-design-1-sm-wrapper-usis {
+        .design-details, .design-services  {
+            .d-flex {
+                flex-wrap:wrap;
+            }
+        }
+        .design-services {
+            .d-flex {
+                row-gap: 12px;
+            }
+        }
+        .design-details .title p{
+            font-family: 'Eina-Bold' !important;
+            font-size:1rem !important;
+        }
+        #component-design-1-main-wrapper .portfolio-main-image-wrapper img{
+            margin-top:-4rem !important;
+        }
+    
+        #component-design-1-main-wrapper .content-wrapper-flex-bordered-items .design-details .d-flex .details{
+            width:auto !important;
+        }
+        #component-design-1-main-wrapper .container-880 .content-wrapper-flex-bordered-items{ 
+            .design-details-1{
+                padding:0rem 0rem !important;
+            }
+            .design-details-0{
+                padding:1rem 0rem !important;
+            }
+        }
+        #component-design-1-main-wrapper .portfolio-main-image-wrapper img{
+            margin-top:-7rem !important;
+        }
+    }
+    #usis-section-4-main-wrapper{
+        padding:4rem 0 !important;
+    }
+    #usis-section-4-main-wrapper{
+        .content-wrapper{
+            .d-flex{
+                flex-wrap: wrap;
+            }
+            .title{
+                padding-bottom:2rem;
+            }
+            .title{
+                .w-50{
+                    width:auto !important;
+                }
+                h3{
+                    font-size:1.5rem !important;
+                }
+            }
+            .details{
+                width:80%;
+            }
+            .details h4{
+                font-size:1rem !important;
+                font-family: 'Eina-Bold', Arial, sans-serif !important;
+            }
+        }
+    }
+    .react-multi-carousel-list .react-multi-carousel-track li{
+        width:330px !important;
+    }
+    #usis-section-5-main-wrapper{
+        .content-wrapper{
+            .d-flex{
+                flex-wrap: wrap;
+            }
+            .title{
+                padding-bottom:2rem;
+            }
+            .title{
+                .w-50{
+                    width:auto;
+                }
+                h3{
+                    font-size:1.5rem !important;
+                }
+            }
+            .details{
+                width:80%;
+            }
+            .details h4{
+                font-size:1rem !important;
+                font-family: 'Eina-Bold', Arial, sans-serif !important;
+            }
+        }
+    }
+    #usis-section-7-main-wrapper{
+        padding: 2rem 2rem 4rem !important;
+    }
+    #usis-section-7-main-wrapper{
+        .container{
+            padding-right:0 !important;
+            padding-left:0 !important;
+        }
+        .row{
+            flex-direction: column-reverse;
+        }
+        .row .col-md-6{
+            .img-wrapper{
+                position: relative !important;
+                top:2rem;
+            }
+            img{
+                width:18rem;
+            }
+        }
+    }
+    #usis-section-3-main-wrapper{
+        .d-sm-hidden{
+            display:none !important
+        }
+        .d-sm-visible{
+            display:block !important;
+        }
+    }
+ }

@@ -1,0 +1,47 @@
+
+
+@import "../../assets/scss/theme";
+@import "../../assets/scss/mixins";
+
+@include media("320", "<=362px") {
+  .project-details .first-row-sm-casestudy-footer{
+    display:block !important;
+    text-align: center;
+  }
+  .services-details .second-row-sm-casestudy-footer{
+    display: block !important;
+    text-align: center;
+  }
+}
+@include media("362px", "<=desktop") {
+  .first-row-sm-casestudy-footer{
+    flex-wrap: wrap;
+  }
+  .second-row-sm-casestudy-footer{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@include media("320px", "<=desktop") {
+  .footer-case-study-logo {
+    width: 8rem;
+    margin-top: 2rem
+  }
+  .mobile-styles-next-case-study {
+    align-items: center;
+    a {
+      justify-content: center !important;
+    }
+  }
+  #case-study-footer {
+    padding: 4rem 0 3rem;
+    h2 {
+      text-align: center;
+    }
+    .project-details {
+      div:first-child {
+        justify-content: center;
+      }
+    }
+  }
+}

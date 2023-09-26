@@ -1,0 +1,123 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+@import '../../../assets/fonts/fonts.scss';
+@import '../../../assets/scss/theme.scss';
+
+#fm-section-1-main-wrapper {
+    padding-bottom: 11.5rem;
+}
+
+#fm-section-2-main-wrapper {
+    background-color: $x96-mirage;
+}
+
+#fm-section-4-main-wrapper {
+    background-color: $x96-mirage;
+    padding: 6rem 0;
+    .react-multiple-carousel__arrow--left::before,  .react-multiple-carousel__arrow--right::before {
+        border: 1.5px solid $x96-fm-red;
+        border-radius: 100%;
+    }
+    .portfolio-display-carousel .carousel-wrapper .react-multiple-carousel__arrow{
+        border: 1px solid $x96-fm-red !important;
+    }
+}
+
+#fm-section-5-main-wrapper {
+    .img-wrapper {
+        margin-top: -5rem;
+    }
+}
+
+#fm-section-6-main-wrapper {
+    .img-main-wrapper {
+        padding-bottom: 6rem;
+    }
+}
+
+#fm-section-7-main-wrapper {
+    background-color: $x96-mirage;
+}
+
+#fm-section-8-main-wrapper {
+    padding: 4rem 0 7rem;
+    .portfolio-display-carousel {
+        img {
+            border-radius: 1rem;
+        }
+    }
+}
+
+#fm-section-12-main-wrapper {
+    padding: 6rem 0;
+    h4 {
+        span {
+            font-size: 0.7rem
+        }
+    }
+    .prd-shape-1 {
+        top: -3rem;
+        left: 0.75rem;
+    }
+    .prd-shape-2 {
+        right: 5rem;
+        top: -1rem;
+    }
+    .prd-shape-3 {
+        left: 3rem;
+        bottom: 2.5rem;
+    }
+    .prd-shape-4 {
+        right: 7rem;
+        bottom: 3.5rem;
+    }
+}
+
+#fm-section-14-main-wrapper {
+    padding: 8rem 0 10rem;
+    .img-wrapper {
+        top: 6rem;
+        img {
+            width: 42rem;
+        }
+    }
+}
+
+#fm-section-15-main-wrapper {
+    padding-top: 3.5rem;
+    .fmu-ipad-section {
+        padding: 4rem 0;
+        .fmu-ipad-img-wrapper {
+            img {
+                transform: translateX(-20rem);
+            }
+        }
+    }
+    .fmu-heading-font-size{
+        font-size:18px;
+    }
+    .fmu-text-font-size{
+        font-size: 17px;
+    }
+}
+
+#fm-section-17-main-wrapper {
+    background-image: url(../../../assets/images/next-sis-word-cloud-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,407 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+@import '../fonts/fonts.scss';
+@import '../scss/theme.scss';
+
+// Import mixins
+@import "mixins";
+
+// Import gradients
+@import "gradients";
+
+// Animation classes
+@import "animation-classes";
+
+// Global Media queries
+@import "global-media-queries";
+
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/**
+ * Using this for controlling overflow horizontal of shapes in services page
+ */
+#root {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h5, button {
+    font-family: 'Eina-Bold', Arial, sans-serif !important;
+}
+
+h4 {
+    font-family: 'Eina-SemiBold', Arial, sans-serif !important;
+}
+
+p, input, textarea {
+    font-family: 'Eina-Regular', Arial, sans-serif !important;
+    &::placeholder {
+        font-family: 'Eina-Regular', Arial, sans-serif !important;
+    }
+}
+a {
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+.font-poppins-regular {
+    font-family: 'Poppins-Regular', Arial, sans-serif !important;
+}
+
+.font-poppins-bold {
+    font-family: 'Poppins-Bold', Arial, sans-serif !important;
+}
+
+.font-eina-bold {
+    font-family: 'Eina-Bold', Arial, sans-serif !important;
+}
+
+.font-eina-regular {
+    font-family: 'Eina-Regular', Arial, sans-serif !important;
+}
+
+.font-eina-semi-bold {
+    font-family: 'Eina-SemiBold', Arial, sans-serif !important;
+}
+
+.font-roboto-regular {
+    font-family: 'Roboto-Regular', Arial, sans-serif !important;
+}
+
+.line-height-1 {
+    line-height: 1 !important;
+}
+
+.border-radius-4 {
+    border-radius: 4px;
+}
+
+.border-radius-10 {
+    border-radius: 0.5rem !important;
+}
+
+.font-size-2rem {
+    font-size: 2rem !important;
+}
+
+.bg-doc-pink {
+    background-color: $x96-doc-pink;
+}
+
+.bg-color-mirage {
+    background-color: $x96-mirage !important;
+}
+
+.bg-color-orange {
+    background-color: $x96-orange;
+}
+
+.bg-cream-can {
+    background-color: $x96-cream-can;
+}
+
+.bg-fm-red {
+    background-color: $x96-fm-red !important;
+}
+
+.bg-usis-blue {
+    background-color: $x96-usis-blue !important;
+}
+
+.bg-usis-grey {
+    background-color: $x96-usis-grey !important;
+}
+
+.bg-pel-blue {
+    background-color: $x96-pel-blue !important;
+}
+
+.bg-alkira-blue {
+    background-color: $x96-alkira-blue !important;
+}
+
+.bg-cinnabar {
+    background-color: $x96-cinnabar !important;
+}
+
+// TODO: use proper function for padding classes
+.pt-5rem {
+    padding-top: 5rem;
+}
+.pt-3rem {
+    padding-top: 3rem;
+}
+.pb-5rem {
+    padding-bottom: 5rem;
+}
+.pl-8rem {
+    padding-left: 8rem !important;
+}
+.mb-5rem {
+    margin-bottom: 5rem;
+}
+.x96-w-80 {
+    width: 80% !important;
+}
+.w-35 {
+    width: 35% !important;
+}
+.z-index-1 {
+    z-index: -1;
+}
+$font-sizes: 2, 3, 4, 5, 14, 17;
+@each $font-size in $font-sizes {
+    .font-#{$font-size} {
+        font-size: $font-size * 1rem;
+    }
+}
+.opacity-05{
+    opacity: 0.5;
+}
+.opacity-02{
+    opacity: 0.2;
+}
+
+.opacity-1{
+    opacity: 1 !important;
+}
+
+.position-absolute-right-bottom-0 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.vh-70 {
+    height: 70vh !important;
+}
+
+.vh-75 {
+    height: 75vh !important;
+}
+
+.color-cream-white {
+    // color: $x96-cream-white;
+    color: rgba(white, 0.9)
+}
+
+.bg-alkira-black {
+    background-color: $x96-alkira-black;
+}
+
+.bg-vulcan {
+    background-color: $x96-vulcan;
+}
+
+.bg-alkira-orange {
+    background-color: $x96-alkira-orange;
+}
+
+.bg-alkira-blue {
+    background-color: $x96-alkira-blue;
+}
+.w-65 {
+    width: 65%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-110 {
+    width: 110%;
+}
+
+button {
+    outline: none !important;
+}
+
+.portfolio-display-carousel {
+    .carousel-wrapper {
+        margin-left: 8.25rem;
+        .react-multi-carousel-list {
+            overflow: visible !important;
+            padding-left: 8rem;
+        }
+        .react-multiple-carousel__arrow--left {
+            left: calc(4% + -8.25rem);
+        }
+        .react-multiple-carousel__arrow--left::before {
+            content: url(../images/slider-btn-transparent.svg) !important;
+        }
+        .react-multiple-carousel__arrow--right::before {
+            content: url(../images/slider-btn-transparent.svg) !important;
+            transform: rotate(180deg);
+        }
+        .react-multiple-carousel__arrow {
+            position: absolute;
+            transition: all .5s;
+            line-height: 0;
+            z-index: 1000;
+            border: none;
+            border-radius: 3rem;
+            background-color: rgba($color: $x96-mirage, $alpha: 0.65) !important;
+            background: none;
+            width: auto !important;
+            height: auto !important;
+            margin: 0;
+            padding: 0;
+            opacity: 1;
+            &:hover {
+                background-color: $x96-mirage !important;
+            }
+        }
+        .carousel-custom-item-wrapper {
+            padding-right: 2rem;
+            button {
+                background-color: black;
+            }
+        }
+    }
+}
+
+.content-wrapper-flex-bordered-items {
+    padding: 4rem 0;
+    h2 {
+        font-size: 2.5rem;
+   }
+    .design-services {
+        p {
+            white-space: nowrap;
+            color: $x96-cream-white;
+            margin-bottom: 0;
+            font-size: 0.8rem;
+       }
+        span {
+            display: table;
+            background-color: $x96-cream-white;
+            width: 1px;
+            height: 1rem;
+            &:last-child {
+                display: none;
+            }
+       }
+   }
+    .design-details {
+        padding: 2rem 3rem;
+        .title {
+            p {
+                font-size: 1.3rem;
+           }
+       }
+        .details {
+            p {
+                margin-top: 2.3rem;
+                color: $x96-cream-white;
+           }
+       }
+   }
+}
+
+.line-height-0 {
+    line-height: 0;
+}
+
+.pl-2rem {
+    padding-left: 2rem;
+}
+
+.z-index-1 {
+    z-index: 1 !important;
+}
+
+.z-index-10 {
+    z-index: 10 !important;
+}
+
+.overlay-black {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.d-block-white-logo {
+    .x96-logo-white {
+        display: block;
+    }
+    .x96-logo-colored {
+        display: none;
+    }
+}
+
+.d-block-colored-logo {
+    .x96-logo-white {
+        display: none !important;
+    }
+    .x96-logo-colored {
+        display: block !important;
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+@media (min-width: 1200px) {
+    .container-880 {
+        max-width: 880px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1365px) {
+    .container {
+        max-width: 1324px !important;
+    }
+}
+
+
+.hs-richtext p {
+    color: aqua;
+}

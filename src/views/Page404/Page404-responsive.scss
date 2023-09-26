@@ -1,0 +1,53 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+ @import "../../assets/scss/mixins";
+
+
+ /**
+  * Media queries for 404 page only not global
+  */
+  @include media(">600px", "<960px"){
+    .page404-image-wrapper{
+        text-align: center;
+    } 
+    .page404-image-wrapper img{
+        width: 600px;
+    }   
+    .page404-wrapper .page404-content-wrapper h5{
+        font-size: 35px !important;
+        margin-top: 2rem;
+    }
+    .page404-wrapper .page404-content-wrapper .btn-404{
+        width:30% !important;
+    }
+  }
+  
+  @include media("320", "<600px"){
+    .page404-image-wrapper{
+        text-align: center;
+    } 
+    .page404-image-wrapper img{
+        width: 326px;
+    }   
+    .page404-wrapper .page404-content-wrapper h5{
+        font-size: 27px !important;
+        margin-top: 2rem;
+    }
+    .page404-wrapper .page404-content-wrapper .btn-404{
+        width:50% !important;
+    }
+  }

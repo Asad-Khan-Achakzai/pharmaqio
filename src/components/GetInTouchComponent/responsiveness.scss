@@ -1,0 +1,57 @@
+
+
+@import "../../assets/scss/theme";
+@import "../../assets/scss/mixins";
+
+@include media("320px", "<=desktop") {
+  .footer-case-study-logo {
+    width: 8rem;
+    margin-top: 2rem
+  }
+  #case-study-footer {
+    padding: 4rem 0 3rem;
+  }
+  #get-in-touch {
+    h4 {
+      font-weight: bold;
+    }
+    .connect-content-wrapper {
+      padding: 0 1rem;
+    }
+    button {
+      width: 100% !important;
+      margin: 0 auto;
+      font-size: 1rem;
+      padding: 1.2rem;
+    }
+  }
+  #get-in-touch .git-shape-1 {
+    bottom: 0rem !important;
+    right: 36% !important;
+    z-index: 2;
+    opacity: .8;
+    img {
+      width: 8rem;
+      height: auto;
+    }
+  }
+  #get-in-touch .git-shape-3 {
+    bottom: 2rem;
+    right: 3%;
+    z-index: 2;
+    opacity: .8;
+    svg {
+      width: 5rem;
+      height: auto;
+    }
+  }
+  #get-in-touch .git-shape-2 {
+    bottom: 5rem;
+    top: 0;
+    right: -16%;
+    svg {
+      width: 10rem;
+      height: auto;
+    }
+  }
+}

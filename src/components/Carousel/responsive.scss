@@ -1,0 +1,9 @@
+
+
+@import "../../assets/scss/mixins";
+
+@include media("320", "<=tablet") {
+  .react-multiple-carousel__arrow {
+    display: none !important;
+  }
+}

@@ -1,0 +1,101 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+
+@import "../../../assets/scss/mixins.scss";
+@import "responsive";
+#pel-section-1-main-wrapper {
+    padding-bottom: 11.5rem;
+}
+.portfolio-display-carousel {
+    .carousel-wrapper {
+        .react-multiple-carousel__arrow {
+            border: 1px solid $x96-pel-blue !important;
+        }
+    }
+}
+#pel-section-3-main-wrapper {
+    h2 {
+        font-size: 4rem;
+    }
+}
+
+#pel-section-4-main-wrapper {
+    .img-wrapper {
+        transform: translateY(5rem) !important;
+    }
+}
+
+#pel-section-5-main-wrapper {
+    padding: 4rem 0;
+}
+
+#pel-section-6-main-wrapper {
+    padding: 4rem 0 6rem;
+}
+
+#pel-section-7-main-wrapper {
+    .content-wrapper-flex-bordered-items {
+        padding: 4rem 0 1rem;
+        .design-details {
+            padding: 2rem 3rem !important;
+            .details {
+                .section-indicator {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    .img-wrapper {
+        position: absolute;
+        right: -5rem;
+        bottom: -10rem;
+    }
+}
+
+#pel-section-10-main-wrapper {
+    padding: 6rem 0 4rem;
+}
+
+#pel-section-8-main-wrapper {
+    padding-top: 6rem;
+    .container-800{
+        max-width:800px;
+        margin:auto;
+    }
+}
+#pel-section-9-main-wrapper{
+    padding-top:3.5rem;
+}
+
+#pel-section-12-main-wrapper {
+    h2 {
+        font-size: 2.5rem;
+    }
+    p {
+        padding: 0 2.5rem;
+    }
+}
+
+#pel-section-14-main-wrapper {
+    background-image: url(../../../assets/images/next-sis-word-cloud-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-translate {
+    @include custom-translateX(4)
+}

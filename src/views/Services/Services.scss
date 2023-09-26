@@ -1,0 +1,108 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+@import "../../assets/scss/theme";
+@import "../../assets/scss/mixins";
+
+// Responsive styles for services page
+@import "responsive";
+
+.clickableServices { 
+  height: inherit;
+  color: white;
+  cursor: pointer;
+    &:hover { color: white }
+}
+.client-bio {
+  .designation {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+.border-left-blue {
+  border-left: 2px solid $x96-usis-blue;
+}
+.border-left-red {
+  border-left: 2px solid $x96-fm-red;
+}
+#technicalWritingService {
+  .shape-roundness {
+    clip-path: inset(5% 20% 15% 10% round 0.4rem 1.5rem 0.4rem 0.4rem) !important;
+  }
+}
+.our-process-wrapper {
+  //margin-bottom: 3rem;
+  min-height: 20rem;
+  .process-title {
+    font-size: 1.5rem;
+  }
+  .process-counter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: $x96-tundora;
+  }
+  .process-separator{
+    width: 4rem;
+    height: .6rem;
+    //margin-left: 4rem;
+  }
+  .process-description {
+    color: $x96-cream-white;
+    max-width: 70%;
+    //padding-left: 4rem;
+  }
+  .process-icon {
+    svg {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+}
+
+.ideate-svg {
+  right: 0;
+  top: 6%;
+  width: calc(100% - 36%);
+}
+.define-svg {
+  right: 0;
+  height: 25rem;
+  top: 20%;
+}
+.test-svg {
+  right: 0;
+  top: 28%;
+  width: calc(100% - 34%);
+}
+
+path.active-animation {
+  stroke: $x96-tundora;
+  stroke-width: 2px;
+  stroke-dasharray: 340;
+  stroke-dashoffset: 340;
+  fill: transparent;
+  animation: animate-svg 1s ease-in-out forwards;
+  animation-delay: .2s;
+}
+
+@keyframes animate-svg {
+  0% {
+    stroke-dasharray: 340;
+  }
+  100% {
+    stroke-dasharray: 0;
+    fill: $x96-tundora;
+  }
+}

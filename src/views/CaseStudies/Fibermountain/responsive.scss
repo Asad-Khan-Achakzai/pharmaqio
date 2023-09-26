@@ -1,0 +1,305 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+@import "../../../assets/scss/theme";
+@import "../../../assets/scss/mixins";
+
+@include media("320", "<desktop") {
+  .nav--default {
+    visibility: visible !important;
+  }
+  .mobile-flex-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .details {
+    width: 100% !important;
+  }
+  #component-design-1-main-wrapper {
+    .portfolio-main-image-wrapper {
+      img {
+        margin-top: -5rem !important;
+      }
+    }
+    .content-wrapper-flex-bordered-items {
+      padding: 3rem 1rem !important;
+      .design-details {
+        padding: 0 0 0 3rem !important;
+        .title {
+          p {
+            font-size: 1rem !important;
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+      h2 {
+        font-size: 2rem !important;
+        margin-bottom: 1rem;
+      }
+      .design-types-styles-mobile {
+        flex-wrap: wrap;
+
+        span {
+          &:nth-child(4) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  #component-design-2-main-wrapper {
+    @extend #component-design-1-main-wrapper;
+    .design-types-component-design2 {
+      flex-wrap: wrap;
+      span {
+        &:nth-child(4) {
+          display: none;
+        }
+      }
+    }
+    .img-wrapper {
+      margin-top: -2rem;
+    }
+  }
+  .fm-section-2-main-wrapper-responsive {
+    .design-services {
+      .design-types-styles-mobile {
+        .mx-3 {
+          margin-left: .8rem !important;
+          margin-right: .8rem !important;
+        }
+        span:nth-of-type(2) {
+          display: block !important;
+        }
+      }
+    }
+  }
+  #fm-technical-writer {
+    .document-component-main-wrapper {
+      padding: 3rem 1rem;
+    }
+    h2 {
+      margin-bottom: 2rem;
+    }
+  }
+
+  #fm-section-1-main-wrapper {
+    padding-bottom: 9rem;
+    height: auto;
+    #casestudy-header-content-animate {
+      margin: 0 2rem;
+      text-align: center;
+    }
+    .project-details {
+      font-size: 0.6rem;
+    }
+    .services-details div:first-child {
+      font-size: 0.8rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  #fm-section-4-main-wrapper {
+    padding: 3rem 0 !important;
+  }
+  .component-design-2-main-wrapper {
+    .content-wrapper-flex-bordered-items {
+      padding: 4rem 0 0 2rem !important;
+    }
+  }
+  #fm-section-5-main-wrapper {
+    .img-wrapper {
+      margin-top: -3rem;
+      margin-bottom: 3.5rem;
+
+    }
+    .mobile-styles-social-media-wrapper {
+      text-align: center;
+    }
+    .design-services {
+      .design-types-component-design2 {
+        .mx-3 {
+          margin-left: .8rem !important;
+          margin-right: .8rem !important;
+        }
+        span:nth-of-type(2) {
+          display: block !important;
+        }
+      }
+    }
+  }
+  .fm-section-9-main-wrapper-responsive, .fm-section-13-main-wrapper-responsive {
+    .design-services {
+      .design-types-component-design2 {
+        .mx-3 {
+          margin-left: .8rem !important;
+          margin-right: .8rem !important;
+        }
+        span:nth-of-type(2) {
+          display: block !important;
+        }
+      }
+    }
+  }
+  #fm-section-7-main-wrapper {
+    //video {
+    //  width: auto !important;
+    //}
+    .video-content-wrapper {
+      p {
+        font-size: 1.3rem;
+        padding-left: 1rem;
+      }
+      padding-left: 1rem;
+    }
+  }
+  #fm-section-11-main-wrapper {
+    img {
+      width: 19rem;
+      height: 7rem;
+      margin-top: 3rem;
+    }
+  }
+  #fm-section-12-main-wrapper {
+    padding: 4rem 0;
+    .prd-mobile-styles {
+
+      h4, p {
+        text-align: center;
+      }
+    }
+    .prd-shape-1 {
+      img {
+        width: 5rem !important;
+      }
+    }
+    .prd-shape-2 {
+      right: 3rem;
+      top: -6rem;
+      svg {
+        width: 5rem;
+      }
+    }
+    .prd-shape-4 {
+      right: 3rem;
+      bottom: -1.5rem;
+      svg {
+        width: 5rem
+      }
+    }
+    .prd-shape-3 {
+      left: 1rem;
+      bottom: -1.5rem;
+      svg {
+        width: 3rem;
+      }
+    }
+  }
+
+  #fm-section-14-main-wrapper {
+    padding: 4rem 0 6rem;
+    .img-wrapper {
+      position: static !important;
+      margin-top: 2rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  #fm-section-15-main-wrapper {
+    .fmu-ipad-section {
+      padding: 2rem 0;
+      .fmu-ipad-img-wrapper {
+        img {
+          width: 100%;
+          transform: translateX(0rem);
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+@include media(">=tablet", "<1365px") {
+  #fm-section-15-main-wrapper .fmu-ipad-section .fmu-ipad-img-wrapper img{
+    transform: translateX(-24rem);
+  }
+}
+@include media(">=tablet", "<desktop") {
+  .fm-section-1-main-wrapper-responsive {
+    padding-top: 3rem !important;
+    .project-details {
+      div.d-flex {
+        justify-content: center;
+      }
+    }
+  }
+  .fm-section-2-main-wrapper-responsive {
+    .content-wrapper-flex-bordered-items {
+      max-width: 720px;
+      margin: auto;
+    }
+  }
+  .fm-section-5-main-wrapper-responsive {
+    #component-design-2-main-wrapper {
+      .container-880 {
+        max-width: 720px;
+        margin: auto;
+      }
+    }
+    .animation-trigger-indicator {
+      .initial-opacity-transform-block.animates-section-content.mobile-styles-social-media-wrapper.start-anim-transform-up {
+        margin-top: 3rem;
+        text-align: left !important;
+      }
+    }
+  }
+  .fm-section-9-main-wrapper-responsive {
+    #component-design-2-main-wrapper {
+      .container-880 {
+        max-width: 720px;
+        margin: auto;
+      }
+    }
+  }
+  .fm-section-11-main-wrapper-responsive {
+    .container-880 {
+      max-width: 720px;
+      margin: auto;
+    }
+  }
+  .fm-section-12-main-wrapper-responsive {
+    .initial-opacity-transform-block.prd-mobile-styles.col-md-4.start-anim-transform-up {
+      h4, span, p {
+        text-align: left !important;
+        display: block;
+      }
+    }
+  }
+  .fm-section-13-main-wrapper-responsive {
+    .container-880 {
+      max-width: 720px;
+      margin: auto;
+    }
+  }
+  .fm-section-14-main-wrapper-responsive, .fm-section-15-main-wrapper-responsive {
+    .mw-md-720 {
+      max-width: 720px;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+
+@import "../../../assets/scss/theme";
+@import "../../../assets/scss/mixins";
+
+@include media("320", "<=desktop") {
+  .casestudy-header-wrapper .container-fluid {
+    padding-top: 5rem;
+  }
+
+  .responsive-styles-case-study-header {
+    padding: 3rem 3rem 3rem !important;
+  }
+}
+
+@include media("320", "<tablet") {
+  .case-study-engagements-mobile {
+    justify-content: center !important;
+  }
+}

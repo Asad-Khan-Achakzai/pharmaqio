@@ -1,0 +1,90 @@
+/**
+Copyright (c) 2022, Xgrid Inc, https://xgrid.co
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+@import "../../assets/scss/theme";
+
+#form-footer-main-wrapper {
+  background-image: url(../../assets/images/form-footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: $x96-dark-purple;
+  padding: 5rem 0;
+  h4 {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+  #contact-us-form {
+    input, textarea {
+        background: rgba(255, 245, 243, 0.3);
+        border: 1px solid white;
+        border-radius: 0.5rem;
+        color: white;
+        outline: none !important;
+        box-shadow: none;
+        margin-bottom: 1.5rem;
+        &::placeholder {
+            color: white;
+            font-size: 0.75rem;
+        }
+    }
+    button {
+        border-radius: 0.5rem;
+        box-shadow: none;
+        font-size: 0.75rem;
+        height: 2.75rem;
+        border-color: $x96-mirage;
+    }
+  }
+  .footer-content-section {
+      padding-top: 2rem;
+      .col-heading {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          p {
+              font-size: 0.75rem;
+              color: rgba($color: white, $alpha: 0.7);
+              font-family: 'Eina-Bold', 'Arial Narrow', Arial, sans-serif !important;
+          }
+          .separator {
+              border-top: 1px solid rgba(151, 151, 151, 0.2);
+              width: 100%;
+              margin: 0rem 1.5rem;
+          }
+      }
+      .footer-col-list {
+          ul {
+              list-style: none;
+              padding-left: 0;
+              color: white;
+              font-family: 'Eina-SemiBold', 'Arial Narrow', Arial, sans-serif !important;
+              li {
+                  padding-top: 1rem !important;
+              }
+          }
+      }
+     .company-address {
+          p {
+              font-size: 0.8rem;
+              color: rgba($color: white, $alpha: 0.8);
+          }
+      }
+  }
+  .footer-copy-right {
+      font-size: 0.7rem;
+  }
+}

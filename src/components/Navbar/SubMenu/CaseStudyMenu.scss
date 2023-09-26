@@ -1,0 +1,65 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+.submenu-casestudy-wrapper {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    .submenu-heading-wrapper {
+        position: absolute;
+        left: 0;
+        p {
+            font-size: 0.8rem;
+        }
+        a {
+            svg {
+                margin: 0 1.5rem 5px 0;
+            }
+        }
+        a:hover {
+            svg {
+                path {
+                    fill-opacity: 1 !important;
+                }
+            }
+        }
+    }
+    .submenu-navlist-wrapper {
+        font-size: 0.7rem;
+        ul {
+            li {
+                margin: 0 0.75rem;
+                a {
+                    padding: 0.75rem 0 0.5rem;
+                    border-bottom: 3px solid;
+                    border-color: transparent;
+                    color: rgba($color: #ffffff, $alpha: 0.7) !important;
+                    &:hover {
+                        color: rgba($color: #ffffff, $alpha: 1) !important;
+                        border-color: white !important;
+                    }
+                }
+                .active {
+                    color: rgba($color: #ffffff, $alpha: 1) !important;
+                    border-color: white !important;
+                }
+            }
+        }
+    }
+}

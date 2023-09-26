@@ -1,0 +1,419 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+
+@import "../../assets/scss/theme";
+@import "../../assets/scss/mixins.scss";
+
+@include media(">319px", "<=600px") {
+    #homepage-section-1-main-wrapper {
+        background-image: url(../../assets/images/homepage-section1-mobile.svg);
+        background-color: $x96-mirage !important;
+        #homepage-section-1-2-main-wrapper {
+            .heading-wrapper {
+                h2 {
+                    padding-bottom: 1rem;
+                }
+            }
+            .content-wrapper {
+                h3 {
+                    padding-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+
+    #homepage-section-2-main-wrapper {
+        .animated-heading {
+            font-size: 5rem !important;
+            padding-top: 2rem !important;
+        }
+        .heading-wrapper {
+            h2 {
+                padding-bottom: 1rem;
+            }
+        }
+        .content-wrapper {
+            h3 {
+                padding-bottom: 0.5rem;
+                font-size: 2.3rem;
+                width: 100%;
+            }
+            p {
+                font-size: 1.2rem;
+                width: 100% !important;
+            }
+        }
+    }
+
+    #homepage-section-3-main-wrapper {
+        .services-cards-main-wrapper {
+            .services-card-1 {
+                .bottom-up {
+                    img {
+                        width: 9rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 2.5rem;
+                    }
+                }
+                &:hover {
+                    .images-wrapper {
+                        .bottom-up {
+                            transform: scale(1.2) translateX(-0.5rem) translateY(0rem) !important;
+                        }
+                        .right-to-left {
+                            transform: scale(1.5) translateX(-5rem) translateY(-2rem) !important;
+                        }
+                    }
+                }
+            }
+            .services-card-2 {
+                margin-top: 1.5rem;
+                .bottom-up {
+                    img {
+                        width: 18rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 12rem;
+                    }
+                }
+            }
+            .services-card-3 {
+                .bottom-up {
+                    img {
+                        width: 7rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 10rem;
+                    }
+                }
+            }
+            .services-card-4 {
+                .right-to-left {
+                    img {
+                        width: 12rem;
+                    }
+                }
+                .bottom-up {
+                    img {
+                        width: 17rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #homepage-section-4-main-wrapper {
+        .container {
+            padding: 0;
+            margin: 0;
+            .portfolio-inner-wrapper {
+                border-radius: 0;
+            }
+            #alkira-case-study-block-wrapper, #usis-case-study-block-wrapper {
+                .portfolio-inner-wrapper {
+                    .content-wrapper {
+                        padding: 0rem 1rem;
+                        h5 {
+                            font-size: 0.9rem;
+                            text-align: right;
+                        }
+                        .portfolio-logo-align-left {
+                            left: 0;
+                            img {
+                                width: 5rem;
+                            }
+                        }
+                    }
+                    .portfolio-img-wrapper {
+                        width: 40rem;
+                        transform: translateX(-12rem);
+                        justify-content: left !important;
+                        display: block !important;
+                    }
+                    .portfolio-index-right {
+                        img {
+                            width: 4.5rem;
+                        }
+                    }
+                    .alkira-portfolio-bg-top-icon {
+                        position: absolute;
+                        top: -5rem;
+                        left: 1rem;
+                    }
+                }
+            }
+
+            #usis-case-study-block-wrapper {
+                .portfolio-index-right {
+                    top: -7.5rem;
+                    right: 2rem;
+                    img {
+                        width: 7rem !important;
+                    }
+                }
+            }
+            #fm-case-study-block-wrapper, #pel-case-study-block-wrapper {
+                .content-wrapper {
+                    padding: 0rem 1rem;
+                    h5 {
+                        font-size: 0.9rem;
+                        text-align: left;
+                    }
+                    .portfolio-logo-align-right {
+                        right: 0;
+                        img {
+                            width: 7rem;
+                        }
+                    }
+                }
+                .portfolio-img-wrapper {
+                    width: 42rem;
+                    transform: translateX(-3.5rem);
+                    display: block !important;
+                }
+                .portfolio-index-left {
+                    img {
+                        width: 6.5rem;
+                    }
+                }
+                .fm-portfolio-bg-top-icon {
+                    left: unset;
+                    right: 0;
+                }
+                .portfolio-logo-align-right {
+                    right: 0;
+                    left: unset;
+                }
+            }
+
+            #pel-case-study-block-wrapper {
+                .portfolio-logo-align-right {
+                    img {
+                        width: 3rem !important;
+                    }
+                }
+                .portfolio-index-left {
+                    top: -7.5rem;
+                    right: 2rem;
+                    img {
+                        width: 9rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #home-technology-section {
+        .technology-stack-wrapper {
+            .content-wrapper {
+                height: 13rem;
+                @include background-img-cover('../../assets/images/technologies-footer-mobile.png');
+                background-size: 87%;
+                h4 {
+                    font-size: 1.25rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .rectangle-banner-figure {
+        right: -6rem !important;
+        bottom: 6rem !important;
+        img {
+            width: 10rem !important;
+        }
+    }
+
+    .rectangle-left-banner-figure {
+        bottom: -1rem !important;
+        left: -16rem !important;
+        img {
+            width: 20rem !important;
+        }
+    }
+
+    .circle-banner-figure {
+        left: 7rem !important;
+        bottom: -1rem !important;
+        img {
+            width: 10rem !important;
+        }
+    }
+}
+
+@include media("320px", "<=374px") {
+    #homepage-section-1-main-wrapper {
+        .heading-wrapper {
+            h1 {
+                font-size: 2.5rem !important;
+                padding-bottom: 1rem;
+            }
+        }
+        .blurb-wrapper {
+            font-size: 1rem !important;
+        }
+    }
+}
+
+@include media("375px", "<=600px") {
+    #homepage-section-1-main-wrapper {
+        .heading-wrapper {
+            h1 {
+                font-size: 3.2rem;
+                padding-bottom: 1rem;
+            }
+        }
+        .blurb-wrapper {
+            font-size: 1.25rem;
+            p {
+                width: 100% !important;
+            }
+        }
+        .mouse-icon-wrapper {
+            .position-absolute {
+                left: 46% !important;
+            }
+        }
+        #homepage-section-1-2-main-wrapper {
+            .heading-wrapper {
+                h2 {
+                    padding-bottom: 1rem;
+                }
+            }
+            .content-wrapper {
+                h3 {
+                    font-size: 2.3rem;
+                    width: 100%;
+                }
+                p {
+                    font-size: 1.2rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@include media(">600px", "<=1025px") {
+    #homepage-section-1-container {
+        #section1-first-content-wrapper {
+            .heading-wrapper {
+                h1 {
+                    font-size: 5rem !important;
+                }
+            }
+        }
+    }
+    #homepage-section-2-main-wrapper {
+        #homepage-section-1-2-main-wrapper {
+            .animated-heading {
+                font-size: 8rem !important;
+            }
+            .content-wrapper {
+                h3 {
+                    font-size: 2.75rem !important;
+                }
+                p {
+                    font-size: 1.5rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .circle-banner-figure {
+        left: 16rem !important;
+        bottom: -15rem !important;
+    }
+    .rectangle-banner-figure {
+        right: -12rem !important;
+        img {
+            width: 20rem !important;
+        }
+    }
+    .rectangle-left-banner-figure {
+        left: -14rem !important;
+        img {
+            width: 25rem !important;
+        }
+    }
+}
+@include media(">1200px", "<=1430px" ) {
+    #homepage-section-1-container {
+        #section1-first-content-wrapper {
+            .blurb-wrapper {
+                p {
+                    z-index: 10 !important;
+                }
+            }
+            .heading-wrapper{
+                z-index:1;
+            }
+        }
+    }
+    .rectangle-banner-figure {
+        bottom: 2rem !important;
+        right: -2rem !important;
+    }
+    .rectangle-left-banner-figure {
+        bottom: -2rem !important;
+    }
+    .circle-banner-figure {
+        left: 30rem !important;
+        bottom:-4rem !important;
+    }
+}
+@include media(">1435px", "<1690px") {
+    .rectangle-left-banner-figure {
+        bottom: -7rem !important;
+        left: -16rem !important;
+    }
+    .rectangle-banner-figure {
+        right: -10rem !important;
+        bottom: -5rem !important;
+    }
+    .circle-banner-figure {
+        left: 32rem !important;
+        bottom: -11rem !important;
+    }
+}
+
+@include media(">2200px", "<2570px") {
+    .rectangle-left-banner-figure {
+        bottom: -3rem !important;
+        left: -16rem !important;
+        img {
+            width: 36rem !important;
+        }
+    }
+    .rectangle-banner-figure {
+        right: 0rem !important;
+        bottom: 0rem !important;
+    }
+    .circle-banner-figure {
+        left: 48rem !important;
+        bottom: -15rem !important;
+        img {
+            width: 30rem !important;
+        }
+    }
+}

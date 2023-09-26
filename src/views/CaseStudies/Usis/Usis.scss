@@ -1,0 +1,127 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+
+@import '../../../assets/fonts/fonts.scss';
+@import '../../../assets/scss/theme.scss';
+@import 'Usis-responsive.scss';
+#usis-section-1-main-wrapper {
+    background-color: $x96-usis-grey;
+    padding-bottom: 11.5rem;
+}
+
+#usis-section-2-main-wrapper {
+    padding-bottom: 2rem;
+    background-color: $x96-mirage;
+}
+
+#usis-section-4-main-wrapper {
+    background-color: $x96-mirage;
+    padding: 6rem 0;
+    .react-multiple-carousel__arrow--left::before,  .react-multiple-carousel__arrow--right::before {
+        border: 1.5px solid $x96-usis-blue;
+        border-radius: 100%;
+    }
+}
+
+#usis-section-5-main-wrapper {
+    background-color: $x96-usis-blue;
+    padding: 6rem 0;
+    .carousel-main-wrapper {
+        overflow-x: hidden;
+        margin-bottom: -16rem;
+        .carousel-wrapper {
+            margin-left: 8.25rem;
+            .react-multi-carousel-list {
+                overflow: visible !important;
+                padding-left: 8rem;
+            }
+            .react-multiple-carousel__arrow--left {
+                left: calc(4% + -8.25rem);
+            }
+            .react-multiple-carousel__arrow--left::before {
+                content: url(../../../assets/images/alkira-case-study/custom-left-btn.svg) !important;
+            }
+            .react-multiple-carousel__arrow--right::before {
+                content: url(../../../assets/images/alkira-case-study/custom-left-btn.svg) !important;
+                transform: rotate(180deg);
+            }
+            .react-multiple-carousel__arrow {
+                position: absolute;
+                transition: all .5s;
+                line-height: 0;
+                z-index: 1000;
+                border: none;
+                border-radius: 3rem;
+                background-color: $x96-mirage !important;
+                background: none;
+                width: auto !important;
+                height: auto !important;
+                margin: 0;
+                padding: 0;
+                opacity: 1;
+            }
+            .carousel-custom-item-wrapper {
+                padding-right: 2rem;
+                width: 90%;
+                button {
+                    background-color: black;
+                }
+            }
+        }
+    }
+}
+
+#usis-section-6-main-wrapper {
+    padding-top: 15rem;
+}
+
+#usis-section-7-main-wrapper {
+    padding: 2rem 0 12rem;
+    h2 {
+        font-size: 2.5rem;
+    }
+    .img-wrapper {
+        left: 0rem;
+        top: 10rem;
+        img {
+            width: 45rem;
+        }
+    }
+}
+
+
+.flex-colum-spaced {
+    padding: 2rem 1.75rem;
+    .title {
+        p {
+            font-size: 1.3rem;
+       }
+   }
+    .details {
+        width: 70%;
+        p {
+            margin-top: 2.3rem;
+            color: $x96-cream-white;
+       }
+   }
+}
+
+#usis-section-9-main-wrapper {
+    background-image: url(../../../assets/images/cloud-next-portfolio-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

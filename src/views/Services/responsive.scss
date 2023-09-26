@@ -1,0 +1,551 @@
+/**
+ Copyright (c) 2020, Xgrid Inc, https://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+@import "../../assets/scss/mixins";
+
+/**
+ * Media queries for services page only not global
+ */
+@include media(">=desktop") {
+  .services-header-wrapper {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .service-counter {
+    position: absolute;
+    left: -4rem;
+  }
+
+  .case-study-title-wrapper {
+    padding-left: 9rem !important;
+    padding-right: 4rem !important;
+  }
+}
+
+@include media(">1250px") {
+  .services-title-and-count {
+    padding-left: 8rem !important;
+  }
+}
+
+@include media(">960px", "<1200px") {
+  html, body, #root {
+    font-size: 16px !important;
+  }
+  .case-study-title-wrapper {
+    padding-left: 9rem !important;
+    padding-right: 4rem !important;
+  }
+  .react-multiple-carousel__arrow {
+    transform: scale(0.6) !important;
+  }
+}
+
+@include media(">1210", "<1290px") {
+  html, body, #root {
+    font-size: 20px !important;
+  }
+}
+
+@include media(">1460px") {
+  .width-large-displays {
+    width: 50rem;
+    margin: 0 auto;
+  }
+  .define-svg {
+    right: 0rem !important;
+    height: 24rem !important;
+    top: 5% !important;
+  }
+  .test-svg {
+    top: 4% !important;
+    right: 0.5rem !important;
+    width: calc(100% - 34%) !important;
+  }
+  #designStudio,
+  #digitalMarketing,
+  #technicalWriting,
+  #webDevelopment {
+    height: inherit;
+    padding-left: 2rem !important;
+  }
+}
+
+@include media(">1500px") {
+  #designStudio {
+    .shape-animation1 {
+      width: 16rem !important;
+      height: 16rem !important;
+      left: -6rem !important;
+      right: unset;
+      bottom: -5rem !important;
+    }
+
+    .shape-animation2 {
+      width: 3rem !important;
+      height: 3rem !important;
+      bottom: 9rem !important;
+      left: 7rem !important;
+      right: unset;
+    }
+  }
+
+  #webDevelopment {
+    .shape-animation1 {
+      bottom: -5rem !important;
+      right: -6rem !important;
+    }
+    .shape-animation2 {
+      bottom: -2.6rem !important;
+    }
+  }
+
+  #designStudioService {
+    .shape-animation1 {
+      width: 20rem !important;
+      height: 20rem !important;
+    }
+  }
+}
+
+@include media(">1300px", "<1450px") {
+  html, body, #root {
+    font-size: 18px !important;
+  }
+
+  .ideate-svg {
+    top: 0% !important;
+    width: calc(100% - 33%) !important;
+  }
+  .define-svg {
+    right: 0rem !important;
+    height: 24rem !important;
+    top: 2% !important;
+  }
+  .test-svg {
+    top: 3% !important;
+    width: calc(100% - 29%) !important;
+  }
+
+  #designStudio,
+  #digitalMarketing,
+  #technicalWriting,
+  #webDevelopment {
+    height: inherit;
+    padding-left: 2rem !important;
+  }
+
+  #designStudioService {
+    .shape-animation1 {
+      width: 20rem !important;
+      height: 20rem !important;
+      left: -6rem !important;
+      right: unset;
+      bottom: -1rem !important;
+    }
+  }
+
+  #designStudio {
+    .shape-animation1 {
+      width: 15rem !important;
+      height: 15rem !important;
+      left: -6rem !important;
+      right: unset;
+      bottom: -5rem !important;
+    }
+
+    .shape-animation2 {
+      width: 3rem !important;
+      height: 3rem !important;
+      bottom: 8rem !important;
+      left: 7rem !important;
+      right: unset;
+    }
+  }
+
+  #webDevelopment {
+    .shape-animation1 {
+      bottom: -5rem !important;
+      right: -6rem !important;
+    }
+    .shape-animation2 {
+      bottom: -2.6rem !important;
+    }
+  }
+}
+
+@include media(">1030px", "<1290px") {
+  html, body, #root {
+    font-size: 16px !important;
+  }
+
+  .define-svg {
+    right: -2rem !important;
+    height: 22rem !important;
+    top: 5% !important;
+  }
+
+  #designStudio {
+    .shape-animation1.shape-responsive-styles {
+      width: 12rem !important;
+      height: 12rem !important;
+      left: -5rem !important;
+      right: unset;
+      bottom: -2rem !important;
+    }
+
+    .shape-animation2.shape-responsive-styles {
+      width: 3rem !important;
+      height: 3rem !important;
+      bottom: 7rem !important;
+      left: 5rem !important;
+      right: unset;
+    }
+  }
+  #webDevelopment {
+    .shape-animation {
+      bottom: 13rem !important;
+      right: -3.5rem !important;
+    }
+    .shape-animation1 {
+      width: 12rem !important;
+      height: 12rem !important;
+      left: unset !important;
+      bottom: -2rem !important;
+      right: -4rem !important;
+      z-index: 9 !important;
+    }
+    .shape-animation2 {
+      bottom: -2.6rem !important;
+    }
+  }
+}
+
+@include media(">960px", "<1030px") {
+  html, body, #root {
+    font-size: 13px !important;
+  }
+  .define-svg {
+    right: -4rem !important;
+    height: 22rem !important;
+    top: 5% !important;
+  }
+  #designStudio {
+    .shape-animation1 {
+      bottom: -4rem !important;
+      width: 12rem !important;
+      height: 12rem !important;
+      left: -4rem !important;
+    }
+
+    .shape-animation2 {
+      bottom: 5rem !important;
+    }
+  }
+
+  #webDevelopment {
+    .shape-animation {
+      bottom: 13rem !important;
+      right: -3.5rem !important;
+    }
+    .shape-animation1 {
+      width: 12rem !important;
+      height: 12rem !important;
+      left: unset !important;
+      bottom: -4rem !important;
+      right: -4rem !important;
+      z-index: 9 !important;
+    }
+    .shape-animation2 {
+      bottom: -2.6rem !important;
+    }
+  }
+}
+
+@include media(">960px", "<1290px") {
+  .ideate-svg {
+    top: 0% !important;
+  }
+  .test-svg {
+    top: 1% !important;
+    width: calc(100% - 31%) !important;
+  }
+  #designStudio,
+  #digitalMarketing,
+  #technicalWriting,
+  #webDevelopment {
+    height: inherit;
+    padding-left: 2rem !important;
+  }
+
+  .process-icon {
+    svg {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+
+  #digitalMarketing {
+    .shape-animation2 {
+      width: 14rem !important;
+      height: 14rem !important;
+      bottom: -1rem !important;
+    }
+    .shape-animation1 {
+      width: 22rem !important;
+      height: 16rem !important;
+      bottom: 0rem !important;
+    }
+  }
+
+  #technicalWriting {
+    .shape-animation{
+      width: 8rem !important;
+      height: 10rem !important;
+      bottom: unset !important;
+      right: -2rem !important;
+      left: unset;
+      top: -2rem !important;
+    }
+    .shape-animation1{
+      width: 7rem !important;
+      height: 10rem !important;
+      bottom: unset !important;
+      right: -2.5rem !important;
+      left: unset;
+      top: 0rem !important;
+    }
+  }
+}
+
+@include media("320", "<desktop") {
+  .change-order-mobile-view {
+    display: flex;
+    flex-direction: column;
+    .change-order-mobile{
+      order: 3
+    }
+  }
+  #designStudio {
+    .shape-animation1 {
+      width: 8.6rem !important;
+      height: 8.6rem !important;
+      left: unset !important;
+      right: -1rem;
+      bottom: -2rem !important;
+    }
+
+    .shape-animation2 {
+      width: 3rem!important;
+      height: 3rem!important;
+      bottom: 3rem!important;
+      left: unset!important;
+      right: -1rem;
+    }
+  }
+
+  #designStudioService {
+    .shape-animation2 {
+      width: 2rem !important;
+      height: 2rem !important;
+      bottom: unset !important;
+      left: unset !important;
+      top: 10rem !important;
+      right: 5.5rem;
+    }
+    .shape-animation1 {
+      width: 10rem !important;
+      height: 10rem !important;
+      bottom: unset !important;
+      left: unset !important;
+      right: -4rem !important;
+      top: 10rem;
+    }
+  }
+
+  #digitalMarketingService {
+    .shape-animation1 {
+      width: 14rem !important;
+      height: 14rem !important;
+      transform: rotate(46deg) !important;
+      bottom: unset !important;
+      top: 3rem !important;
+      left: unset !important;
+      right: -8rem !important;
+    }
+    .shape-animation2 {
+      width: 15rem !important;
+      height: 15rem !important;
+      bottom: unset !important;
+      top: 2rem;
+      left: unset !important;
+      right: -9rem !important;
+      transform: rotate(10deg) !important;
+    }
+  }
+
+  #technicalWritingService {
+    .shape-animation {
+      width: 10rem !important;
+      height: 10rem !important;
+      bottom: unset !important;
+      left: unset !important;
+      top: 5rem !important;
+      right: -3rem;
+    }
+    .shape-animation1 {
+      width: 10rem !important;
+      height: 8rem !important;
+      top: 12rem !important;
+      bottom: unset !important;
+      left: unset !important;
+      right: -5rem !important;
+    }
+  }
+
+  #webDevService {
+    .shape-animation1 {
+      bottom: unset !important;
+      left: unset !important;
+      right: -6rem !important;
+      top: 8rem !important;
+      width: 12rem !important;
+      height: 12rem !important;
+    }
+    .shape-animation {
+      bottom: unset !important;
+      width: 15rem !important;
+      height: 15rem !important;
+      left: unset !important;
+      right: -10rem !important;
+      top: 3rem !important;
+    }
+  }
+
+  .responsive-padding {
+    padding: 0 !important;
+  }
+
+  .services-title-and-count {
+    padding-left: 1.5rem !important;
+  }
+
+  .services-title-and-count {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .services-title {
+    font-size: 3.4rem !important;
+  }
+  .service-counter {
+    font-size: 6rem !important;
+  }
+
+  #designStudio {
+    z-index: 11;
+  }
+
+  #digitalMarketing {
+    z-index: 12;
+    .shape-animation {
+      left: -2.4rem !important;
+    }
+    .circle-shape {
+      width: 7rem !important;
+      height: 7rem !important;
+      top: -3.6rem !important;
+      left: -3.7rem !important;
+      z-index: 2;
+    }
+    .shape-animation2 {
+      width: 11rem !important;
+      height: 11rem !important;
+      bottom: -7rem !important;
+    }
+    .inset-shape.shape-animation1 {
+      width: 11rem !important;
+      height: 11rem !important;
+      bottom: -3rem !important;
+      right: -6.4rem !important;
+      z-index: 9;
+    }
+    .inset-shape.shape-animation {
+      width: 8rem !important;
+      height: 8rem !important;
+      bottom: -6rem !important;
+      right: -3.5rem;
+      z-index: 9;
+    }
+  }
+
+  #technicalWriting {
+    z-index: 2;
+    .shape-animation{
+      width: 9.3rem !important;
+      height: 9.3rem !important;
+      bottom: -4.2rem !important;
+      right: unset !important;
+      left: -4.2rem;
+      top: unset !important;
+      z-index: 9;
+    }
+    .shape-animation1{
+      width: 8rem !important;
+      height: 8rem !important;
+      bottom: -3.5rem !important;
+      right: unset !important;
+      left: -3.7rem;
+      top: unset !important;
+      z-index: 9;
+    }
+  }
+
+  #webDevelopment {
+    z-index: 1;
+    .shape-animation {
+      bottom: 3rem !important;
+      right: -3.5rem !important;
+    }
+    .shape-animation1 {
+      width: 8rem !important;
+      height: 8rem !important;
+      bottom: -4rem !important;
+      right: -2rem !important;
+      z-index: 9 !important;
+    }
+  }
+
+  .process-icon {
+    svg {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+
+  .our-process-wrapper {
+    .process-description {
+      max-width: 100% !important;
+    }
+  }
+
+  .responsive-custom-height {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
