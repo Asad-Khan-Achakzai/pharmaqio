@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9cab693edce0461b48e851742356cda",
+    "revision": "c9c947c013793832a0ca6fb16917408d",
     "url": "/pharmaqio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pharmaqio/static/css/2.277ec499.chunk.css"
   },
   {
-    "revision": "298dd43628c01c9dc8c0",
+    "revision": "7e1aebb0e57369c3f12e",
     "url": "/pharmaqio/static/css/main.7326c23f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pharmaqio/static/js/2.34d606b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "298dd43628c01c9dc8c0",
-    "url": "/pharmaqio/static/js/main.f518ab17.chunk.js"
+    "revision": "7e1aebb0e57369c3f12e",
+    "url": "/pharmaqio/static/js/main.070d6d86.chunk.js"
   },
   {
     "revision": "94dc665738dc83f843a3",
