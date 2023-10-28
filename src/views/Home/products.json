@@ -1,0 +1,794 @@
+[
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Levofloxacin",
+      "Category": "Antibiotic",
+      "Strength": "250mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Levofloxacin",
+      "Category": "Antibiotic",
+      "Strength": "500mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Ciprofloxacin",
+      "Category": "Antibiotic",
+      "Strength": "250mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Ciprofloxacin",
+      "Category": "Antibiotic",
+      "Strength": "500mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Paracetamol",
+      "Category": "Analgesic, Antipyretic",
+      "Strength": "500mg",
+      "PackSize": "200’s"
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Escitalopram",
+      "Category": "Antidepressant",
+      "Strength": "10mg",
+      "PackSize": "10/14’s"
+    },
+    {
+      "SNo": "7",
+      "ProductName": "Levosulpride",
+      "Category": "Antiemetic",
+      "Strength": "25mg",
+      "PackSize": "20’s"
+    },
+    {
+      "SNo": "8",
+      "ProductName": "Levosulpride",
+      "Category": "Antiemetic",
+      "Strength": "50mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "9",
+      "ProductName": "Sita gliptin/Metformin",
+      "Category": "Anti-diabetic",
+      "Strength": "50/500mg",
+      "PackSize": "12"
+    },
+    {
+      "SNo": "10",
+      "ProductName": "Sita gliptin/Metformin",
+      "Category": "Anti-diabetic",
+      "Strength": "50/1000mg",
+      "PackSize": "12"
+    },
+    {
+      "SNo": "11",
+      "ProductName": "Valsartan",
+      "Category": "Beta Blocker",
+      "Strength": "80mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "12",
+      "ProductName": "Valsartan",
+      "Category": "Beta Blocker",
+      "Strength": "160mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "13",
+      "ProductName": "Valsartan+Amlodipine",
+      "Category": "Anti-hypertensive",
+      "Strength": "80mg/5mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "14",
+      "ProductName": "Valsartan+ Amlodipine",
+      "Category": "Anti-hypertensive",
+      "Strength": "80mg/10mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "15",
+      "ProductName": "Olanzapine Citrate",
+      "Category": "Anti-psychotic",
+      "Strength": "5mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "16",
+      "ProductName": "Olanzapine Citrate",
+      "Category": "Anti-psychotic",
+      "Strength": "10mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "17",
+      "ProductName": "Linzolide 600mg",
+      "Category": "Antimicrobial",
+      "Strength": "600mg",
+      "PackSize": "12’s"
+    },
+    {
+      "SNo": "18",
+      "ProductName": "Paracetamol+ Tramadol",
+      "Category": "Analgesic, Antipyretic",
+      "Strength": "350/37.5mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "19",
+      "ProductName": "Moxifloxacin HCL",
+      "Category": "Antibiotic",
+      "Strength": "400mg",
+      "PackSize": "5’s"
+    },
+    {
+      "SNo": "20",
+      "ProductName": "Tramadol 50mg",
+      "Category": "Analgesic, Antipyretic",
+      "Strength": "50mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "21",
+      "ProductName": "Tramadol 100mg",
+      "Category": "Analgesic, Antipyretic",
+      "Strength": "100mg",
+      "PackSize": "100’s"
+    },
+    {
+      "SNo": "22",
+      "ProductName": "Sertraline HCL",
+      "Category": "Antidepressant",
+      "Strength": "50mg",
+      "PackSize": "20’s"
+    },
+    {
+      "SNo": "23",
+      "ProductName": "Sertraline HCL",
+      "Category": "Antidepressant",
+      "Strength": "100mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "24",
+      "ProductName": "Lornoxicam",
+      "Category": "NSAID",
+      "Strength": "4mg",
+      "PackSize": "30’s"
+    },
+    {
+      "SNo": "25",
+      "ProductName": "Lornoxicam",
+      "Category": "NSAID",
+      "Strength": "8mg",
+      "PackSize": "20’s"
+    },
+    {
+      "SNo": "26",
+      "ProductName": "Azithromycin",
+      "Category": "Antimicrobial",
+      "Strength": "500mg",
+      "PackSize": "6/10’s"
+    },
+    {
+      "SNo": "27",
+      "ProductName": "Ondansetron",
+      "Category": "Antiemetic",
+      "Strength": "5mg",
+      "PackSize": "20’s"
+    },
+    {
+      "SNo": "28",
+      "ProductName": "Paracetamol+ Orphenadrine citrate",
+      "Category": "Analgesic, Antipyretic",
+      "Strength": "650/35mg",
+      "PackSize": "100’s"
+    },
+    {
+      "SNo": "29",
+      "ProductName": "Escitalopram",
+      "Category": "Antidepressant",
+      "Strength": "20mg",
+      "PackSize": "10/14’s"
+    },
+    {
+      "SNo": "30",
+      "ProductName": "Mefenamic acid",
+      "Category": "NSAID",
+      "Strength": "500mg",
+      "PackSize": "100/200’s"
+    }
+  ],
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Omeprazole",
+      "Category": "PPI",
+      "Strength": "20mg",
+      "PackSize": "10’/14/100"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Omeprazole",
+      "Category": "PPI",
+      "Strength": "40mg",
+      "PackSize": "10’/14"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Esomeprazole",
+      "Category": "PPI",
+      "Strength": "20mg",
+      "PackSize": "14s"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Esomeprazole",
+      "Category": "PPI",
+      "Strength": "40mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Azithromycin",
+      "Category": "Antimicrobial",
+      "Strength": "250mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Azithromycin",
+      "Category": "Antimicrobial",
+      "Strength": "500mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "7",
+      "ProductName": "Pregebalin",
+      "Category": "Antiepileptic",
+      "Strength": "75mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "8",
+      "ProductName": "Pregebalin",
+      "Category": "Antiepileptic",
+      "Strength": "100mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "9",
+      "ProductName": "Pregebalin",
+      "Category": "Anticonvulsant",
+      "Strength": "150mg",
+      "PackSize": "14’s"
+    },
+    {
+      "SNo": "10",
+      "ProductName": "Gabapentin",
+      "Category": "Anticonvulsant",
+      "Strength": "100mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "11",
+      "ProductName": "Gabapentin",
+      "Category": "Anticonvulsant",
+      "Strength": "300mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "12",
+      "ProductName": "Celecoxib",
+      "Category": "NSAID",
+      "Strength": "100mg",
+      "PackSize": "12’s"
+    },
+    {
+      "SNo": "13",
+      "ProductName": "Celecoxib",
+      "Category": "NSAID",
+      "Strength": "200mg",
+      "PackSize": "12’s"
+    },
+    {
+      "SNo": "14",
+      "ProductName": "Doxycycline",
+      "Category": "Antimicrobial",
+      "Strength": "100mg",
+      "PackSize": "20s"
+    },
+    {
+      "SNo": "15",
+      "ProductName": "Fluoxetine",
+      "Category": "Antidepressant",
+      "Strength": "20mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "16",
+      "ProductName": "Tranexamic Acid",
+      "Category": "Anti hemorrhagic",
+      "Strength": "250mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "17",
+      "ProductName": "Tranexamic Acid",
+      "Category": "Anti hemorrhagic",
+      "Strength": "500mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "18",
+      "ProductName": "Fluconazole",
+      "Category": "Anti fungal",
+      "Strength": "150mg",
+      "PackSize": "1’s"
+    },
+    {
+      "SNo": "19",
+      "ProductName": "Lansoprazole",
+      "Category": "PPI",
+      "Strength": "30mg",
+      "PackSize": "10’/14"
+    },
+    {
+      "SNo": "20",
+      "ProductName": "Pantoprazole",
+      "Category": "PPI",
+      "Strength": "20mg",
+      "PackSize": "10’/14"
+    },
+    {
+      "SNo": "21",
+      "ProductName": "Pantoprazole",
+      "Category": "PPI",
+      "Strength": "40mg",
+      "PackSize": "10’/14"
+    }
+  ],
+
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Mecobalamin",
+      "Category": "Vitamin B12",
+      "Strength": "500mcg",
+      "PackSize": "1mlx10"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "VitaminD3",
+      "Category": "Vitamin d analogue",
+      "Strength": "1mcg",
+      "PackSize": "1’s"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "VitaminD3",
+      "Category": "Vitamin d analogue",
+      "Strength": "2mcg",
+      "PackSize": "1’s"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Piroxicam",
+      "Category": "NSAID",
+      "Strength": "20mg",
+      "PackSize": "2mlx5amp"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Iron Sucrose Complex",
+      "Category": "hematinic",
+      "Strength": "100mg",
+      "PackSize": "1mlx5 amp"
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Diclofenac sodium",
+      "Category": "NSAID",
+      "Strength": "75mg",
+      "PackSize": "3mlx5amp"
+    },
+    {
+      "SNo": "7",
+      "ProductName": "Paracetamol lidocaine",
+      "Category": "analgesic local Anesthetic",
+      "Strength": "300/20mg",
+      "PackSize": "3mlx5amp"
+    },
+    {
+      "SNo": "8",
+      "ProductName": "Paracetamol lidocaine",
+      "Category": "analgesic local Anesthetic",
+      "Strength": "600/20mg",
+      "PackSize": "4mlx3amp"
+    },
+    {
+      "SNo": "9",
+      "ProductName": "Pheniramine Maleate",
+      "Category": "Anti-histamine",
+      "Strength": "45.4mg",
+      "PackSize": "2mlx10amp"
+    },
+    {
+      "SNo": "10",
+      "ProductName": "Vitamin B1+B6+B12",
+      "Category": "Multi Vitamin",
+      "Strength": "100/100/1000mcg",
+      "PackSize": "3mlx10amp"
+    },
+    {
+      "SNo": "11",
+      "ProductName": "Tramadol HCL",
+      "Category": "Analgesic",
+      "Strength": "100mg",
+      "PackSize": "2mlx5amp"
+    },
+    {
+      "SNo": "12",
+      "ProductName": "Tramadol HCL",
+      "Category": "Analgesic",
+      "Strength": "75mg",
+      "PackSize": "3mlx5amp"
+    },
+    {
+      "SNo": "13",
+      "ProductName": "Nalbuphine HCL",
+      "Category": "Opiate Antagonist",
+      "Strength": "10mg",
+      "PackSize": "2mlx10amp"
+    },
+    {
+      "SNo": "14",
+      "ProductName": "Nalbuphine HCL",
+      "Category": "Opiate Antagonist",
+      "Strength": "20mg",
+      "PackSize": "2mlx5amp"
+    },
+    {
+      "SNo": "15",
+      "ProductName": "Ondansetron",
+      "Category": "Antiemetic",
+      "Strength": "8mg",
+      "PackSize": "2mlx5amp"
+    },
+    {
+      "SNo": "16",
+      "ProductName": "Dimenhydrinate",
+      "Category": "Anti-Histamine",
+      "Strength": "50mg",
+      "PackSize": "2mlx5amp"
+    }
+  ],
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Diclofenic Diethyl Amine",
+      "Category": "NSAID",
+      "Strength": "[1%w/w]gel",
+      "PackSize": "1x25g"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Diclofenic Diethyl Amine",
+      "Category": "NSAID",
+      "Strength": "[1%w/w]gel",
+      "PackSize": "1x50g"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Clotrimazole",
+      "Category": "antifungal",
+      "Strength": "[1%w/w]Cream",
+      "PackSize": "1x10g"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Fusidic Acid+Hydrocortisone",
+      "Category": "Antimicrobial/corticosteroid",
+      "Strength": "[2%w/w]Cream",
+      "PackSize": "1x15g"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Fusidic Acid+BetaMethasone",
+      "Category": "Antimicrobial/corticosteroid",
+      "Strength": "[2%w/w]Cream",
+      "PackSize": "1x15g"
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Betamethasone",
+      "Category": "corticosteroid",
+      "Strength": "[0.05%w/w]Cream",
+      "PackSize": "1x15g"
+    },
+    {
+      "SNo": "7",
+      "ProductName": "Clindamycin",
+      "Category": "Antibiotic",
+      "Strength": "[1%w/w]Cream",
+      "PackSize": "1x15g"
+    },
+    {
+      "SNo": "8",
+      "ProductName": "Piroxicam",
+      "Category": "Analgesic",
+      "Strength": "[0.5%w/w]gel",
+      "PackSize": "1x15g"
+    },
+    {
+      "SNo": "9",
+      "ProductName": "Flucinolone+Hydroquinone",
+      "Category": "corticosteroid / Antiacne",
+      "Strength": "[0.01%w/w]Cream",
+      "PackSize": "1x15g"
+    }
+  ],
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Omeprazole /Sodium bi Carbonate",
+      "Category": "PPI",
+      "Strength": "20mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Omeprazole /Sodium bi Carbonate",
+      "Category": "PPI",
+      "Strength": "40mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Monteleukast Sachet",
+      "Category": "Beta blocker",
+      "Strength": "4mg",
+      "PackSize": "20’s"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Vitamin C+Calcium Sachet",
+      "Category": "Vitamin/Calcium analogue",
+      "Strength": "500mg/327mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Sodium Chloride/sodium Citrate/Potassium Chloride/Dextrose Anhydrous Sachet",
+      "Category": "Oral Rehydration source",
+      "Strength": "3.5g",
+      "PackSize": "20’s",
+      "Extra Info": ["2.9g", "15g", "20g"]
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Hexamine/piperazine Tartarate/theobromine",
+      "Category": "Antacid/analgesic/antigout",
+      "Strength": "0.392g",
+      "PackSize": "10’s",
+      "Extra Info": ["/0.018/0.0054g"]
+    },
+    {
+      "SNo": "7",
+      "ProductName": "Saccharomyces Boulardii",
+      "Category": "Antidiarrheal",
+      "Strength": "250mg",
+      "PackSize": "10’s"
+    },
+    {
+      "SNo": "8",
+      "ProductName": "Sodium Bicarbonate/sodium Citrate/Citric Acid/Tartaric acid Granules",
+      "Category": "Urinary alkalizer and antacid",
+      "Strength": "1.716g",
+      "PackSize": "20’s",
+      "Extra Info": ["0.613g", "0.702g", "0.858g"]
+    }
+  ],
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Ceftriaxone",
+      "Category": "Cephalosporin",
+      "Strength": "250mg",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Ceftriaxone",
+      "Category": "Cephalosporin",
+      "Strength": "500mg",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Ceftriaxone",
+      "Category": "Cephalosporin",
+      "Strength": "1g",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Ceftriaxone",
+      "Category": "Cephalosporin",
+      "Strength": "2g",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Cefepime",
+      "Category": "Cephalosporin",
+      "Strength": "500mg",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Cefepime",
+      "Category": "Cephalosporin",
+      "Strength": "1g",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "7",
+      "ProductName": "Ceftazadime(as Pentahydrate)",
+      "Category": "Cephalosporin",
+      "Strength": "250mg",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "8",
+      "ProductName": "Ceftazadime(as Pentahydrate)",
+      "Category": "Cephalosporin",
+      "Strength": "500mg",
+      "PackSize": "1x1’s"
+    },
+    {
+      "SNo": "9",
+      "ProductName": "Ceftazadime(as Pentahydrate)",
+      "Category": "Cephalosporin",
+      "Strength": "1g",
+      "PackSize": "1x1’s"
+    }
+  ],
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Cephradine",
+      "Category": "Cephalosporin",
+      "Strength": "250mg",
+      "PackSize": "12’s"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Cephradine",
+      "Category": "Cephalosporin",
+      "Strength": "500mg",
+      "PackSize": "6’s"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Cefixime(as Trihydrate)",
+      "Category": "Cephalosporin",
+      "Strength": "400mg",
+      "PackSize": "14’s"
+    }
+  ],
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Cefixime(as Trihydrate)",
+      "Category": "Cephalosporin",
+      "Strength": "100mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Cefixime(as Trihydrate)",
+      "Category": "Cephalosporin",
+      "Strength": "200mg/5ml",
+      "PackSize": "30ml"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Cephradine",
+      "Category": "Cephalosporin",
+      "Strength": "125mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Cephradine",
+      "Category": "Cephalosporin",
+      "Strength": "250mg/5ml",
+      "PackSize": "30ml"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Cefaclor",
+      "Category": "Cephalosporin",
+      "Strength": "125mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Cefaclor",
+      "Category": "Cephalosporin",
+      "Strength": "250mg/5ml",
+      "PackSize": "30ml"
+    }
+  ],
+  [
+    {
+      "SNo": "1",
+      "ProductName": "Ciprofloxacin",
+      "Category": "Antimicrobial",
+      "Strength": "125mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "2",
+      "ProductName": "Ciprofloxacin",
+      "Category": "Antimicrobial",
+      "Strength": "250mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "3",
+      "ProductName": "Levofloxacin",
+      "Category": "Antimicrobial",
+      "Strength": "125mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "4",
+      "ProductName": "Levofloxacin",
+      "Category": "Antimicrobial",
+      "Strength": "250mg/5ml",
+      "PackSize": "30ml"
+    },
+    {
+      "SNo": "5",
+      "ProductName": "Azithromycin",
+      "Category": "Antimicrobial",
+      "Strength": "200mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "6",
+      "ProductName": "Clarithromycin",
+      "Category": "Antimicrobial",
+      "Strength": "125mg/5ml",
+      "PackSize": "30ml"
+    },
+    {
+      "SNo": "7",
+      "ProductName": "Clarithromycin",
+      "Category": "Antimicrobial",
+      "Strength": "250mg/5ml",
+      "PackSize": "60ml"
+    },
+    {
+      "SNo": "8",
+      "ProductName": "Linzolide",
+      "Category": "Antimicrobial",
+      "Strength": "100mg",
+      "PackSize": "60ml"
+    }
+  ]
+]

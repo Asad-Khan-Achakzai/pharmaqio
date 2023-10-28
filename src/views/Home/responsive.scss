@@ -17,7 +17,7 @@
 @import "../../assets/scss/theme";
 @import "../../assets/scss/mixins.scss";
 
-@include media(">319px", "<=600px") {
+@include media(">280px", "<=600px") {
     #homepage-section-1-main-wrapper {
         background-image: url(../../assets/images/homepage-section1-mobile.svg);
         background-color: $x96-mirage !important;
@@ -59,6 +59,137 @@
     }
 
     #homepage-section-3-main-wrapper {
+        .services-cards-main-wrapper {
+            .services-card-1 {
+                .bottom-up {
+                    img {
+                        width: 9rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 2.5rem;
+                    }
+                }
+                &:hover {
+                    .images-wrapper {
+                        .bottom-up {
+                            transform: scale(1.2) translateX(-0.5rem) translateY(0rem) !important;
+                        }
+                        .right-to-left {
+                            transform: scale(1.5) translateX(-5rem) translateY(-2rem) !important;
+                        }
+                    }
+                }
+            }
+            .services-card-2 {
+                margin-top: 1.5rem;
+                .bottom-up {
+                    img {
+                        width: 18rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 12rem;
+                    }
+                }
+            }
+            .services-card-3 {
+                .bottom-up {
+                    img {
+                        width: 7rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 10rem;
+                    }
+                }
+            }
+            .services-card-4 {
+                .right-to-left {
+                    img {
+                        width: 12rem;
+                    }
+                }
+                .bottom-up {
+                    img {
+                        width: 17rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #homepage-section-4-square-main-wrapper {
+        .services-cards-main-wrapper {
+            .services-card-wrapper{
+                padding: 1rem;
+            }
+            .services-card-1 {
+                .bottom-up {
+                    img {
+                        width: 9rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 2.5rem;
+                    }
+                }
+                &:hover {
+                    .images-wrapper {
+                        .bottom-up {
+                            transform: scale(1.2) translateX(-0.5rem) translateY(0rem) !important;
+                        }
+                        .right-to-left {
+                            transform: scale(1.5) translateX(-5rem) translateY(-2rem) !important;
+                        }
+                    }
+                }
+            }
+            .services-card-2 {
+                margin-top: 1.5rem;
+                .bottom-up {
+                    img {
+                        width: 18rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 12rem;
+                    }
+                }
+            }
+            .services-card-3 {
+                .bottom-up {
+                    img {
+                        width: 7rem;
+                    }
+                }
+                .right-to-left {
+                    img {
+                        width: 10rem;
+                    }
+                }
+            }
+            .services-card-4 {
+                .right-to-left {
+                    img {
+                        width: 12rem;
+                    }
+                }
+                .bottom-up {
+                    img {
+                        width: 17rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #homepage-section-5-square-main-wrapper {
         .services-cards-main-wrapper {
             .services-card-1 {
                 .bottom-up {
@@ -226,8 +357,9 @@
     #home-technology-section {
         .technology-stack-wrapper {
             .content-wrapper {
-                height: 13rem;
-                @include background-img-cover('../../assets/images/technologies-footer-mobile.png');
+                // height: 13rem;
+                // @include background-img-cover('../../assets/images/technologies-footer-mobile.png');
+                padding: 1rem;
                 background-size: 87%;
                 h4 {
                     font-size: 1.25rem;

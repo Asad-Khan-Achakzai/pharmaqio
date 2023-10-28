@@ -69,7 +69,7 @@ class ContactUsComponent extends React.Component {
                   id="footer-content-sec-1"
                   className="footer-content-section"
                 >
-                  <div className="initial-opacity-transform-block">
+                  {/* <div className="initial-opacity-transform-block">
                     <div className="col-heading">
                       <div>
                         <p className="m-0">Explore Pharmaqio</p>
@@ -85,10 +85,13 @@ class ContactUsComponent extends React.Component {
                         <li>
                           <Link
                             className="text-white"
-                            to="/"
-                            onClick={(e) => window.scrollTo(0, 0)}
+                            to="homepage-section-1-main-wrapper"
+                            duration={1500}
+                            spy={true}
+                            smooth={true}
+                            offset={-30}
                           >
-                            Home
+                            About Us
                           </Link>
                         </li>
                         <li>
@@ -120,7 +123,7 @@ class ContactUsComponent extends React.Component {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div
                   id="footer-content-sec-2"

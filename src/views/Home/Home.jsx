@@ -34,11 +34,14 @@ import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 // Constants Imports
 import constants from "../../constants/constants";
+import products from "./products.json";
 
 import { Element } from "react-scroll";
 import { Link } from "react-router-dom";
 // Bootstrap Imports
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Table } from "react-bootstrap";
+// import Table from 'react-bootstrap/Table';
+
 import * as ScrollMagic from "scrollmagic"; // Or use scrollmagic-with-ssr to avoid server rendering problems
 import { TweenMax, TimelineMax } from "gsap"; // Also works with TweenLite and TimelineLite
 import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
@@ -93,6 +96,17 @@ class Home extends React.Component {
     animationService.transformTextY(
       "#trigger-service-text",
       "#trigger-service-text .section-text-animation",
+      "-=700"
+    );
+    animationService.transformTextY(
+      "#trigger-service-text-5",
+      "#trigger-service-text-5 .section-text-animation",
+      "-=700"
+    );
+
+    animationService.transformTextY(
+      "#trigger-service-text-6",
+      "#trigger-service-text-6 .section-text-animation",
       "-=700"
     );
 
@@ -480,7 +494,12 @@ class Home extends React.Component {
               <div className="text-center blurb-wrapper d-flex flex-column justify-content-center">
                 <div className="d-flex justify-content-center">
                   <p className="text-white w-75">
-                    We'll Ensure You Always Get the Best Possible Results
+                    One of the best manufacturers of Finished Pharmaceutical
+                    Products, located in Rawalpindi-Pakistan. Founded in 2023.
+                    Pharmaqio is committed to providing you with best healthcare
+                    solutions manufactured through our dedicated team and
+                    state-of-the-art manufacturing facilities ensuring not only
+                    a healthier today but also, a healthier tomorrow!
                   </p>
                 </div>
                 <div className="position-absolute left-0 d-none d-lg-block">
@@ -552,7 +571,7 @@ class Home extends React.Component {
             <div className="container h-100">
               <div className="d-flex align-content-center justify-content-center flex-column h-100">
                 <div className="d-flex justify-content-center text-center heading-wrapper mb-lg-2">
-                  <div className="line-height-1 animated-heading">Discover</div>
+                  <div className="line-height-1 animated-heading">Mission</div>
                 </div>
                 <div className="text-center content-wrapper">
                   <div className="d-flex justify-content-center mb-lg-1">
@@ -562,9 +581,9 @@ class Home extends React.Component {
                   </div>
                   <div className="d-flex justify-content-center">
                     <p>
-                      We are pioneer in establishing unique drugs like Ginbex
-                      (Ginkgo biloba) & Capcidol (Capsaicin). Which help the
-                      patient with improved life style.{" "}
+                      To Improve the Lives of Our Patients and People with
+                      Quality Products and to Achieve Our Vision by the Help of
+                      Professional & Motivated Staff{" "}
                     </p>
                   </div>
                 </div>
@@ -572,41 +591,197 @@ class Home extends React.Component {
             </div>
           </div>
         </section>
-        {/* <section id="homepage-section-3-main-wrapper">
+        {/* <div className="d-flex align-content-center justify-content-center flex-column h-100">
+                <div className="d-flex justify-content-center heading-wrapper mb-lg-2">
+                  <div className="line-height-1 animated-heading text-center ">About us</div>
+                </div>
+                <div className="text-center content-wrapper">
+                <div className="d-flex justify-content-center mb-lg-1">
+                    <h3 className="line-height-1">
+                      Creative strategies & out of the box ideas
+                    </h3>
+                  </div> 
+                  <div className="d-flex justify-content-center">
+                    <Row>
+                      <Col xs={12} sm={12} md={6}>
+                        <p className="d-inline">
+                          Pharmaqio structure comprises of a management team
+                          with the Managing Director/Chief Executive Officer
+                          responsible for running the organization with support
+                          from the Executive Committee which has representation
+                          from key areas of Pharmaqio, including Human Resource
+                          Development, Strategic Planning and Business
+                          Development, Marketing and Sales, Plant Operations,
+                          Quality Operations, Finance, Information Technology,
+                          and Supply Chain. With a sense of responsibility, this
+                          team guides and motivates people, builds their
+                          efforts, and makes them challenge their own potential,
+                          resulting in nothing but the very best they have to
+                          offer in the work they are carrying out.
+                        </p>
+                      </Col>
+                      <Col xs={12} sm={12} md={6}>
+                        <p className="d-inline">
+                          The work culture at Pharmaqio involves a participative
+                          approach through effective structures and systems in a
+                          sound and stable work environment. Employees are
+                          provided guidance, motivation and timely feedback
+                          which collectively develops in them a sense of pride.
+                          Since they understand the importance of their role in
+                          the outcome, they take ownership and become valuable
+                          team members in their respective work domains
+                          eventually resulting in accomplishing personal as well
+                          as organizational objectives.
+                        </p>
+                      </Col>
+                    </Row>
+                  </div>
+                </div>
+              </div> */}
+        <section id="home-technology-section" className="bg-color-mirage">
+          <Container>
+            <div className="technology-stack-wrapper fade-linear-gradient">
+              <div className="content-wrapper text-left justify-content-center align-items-center w-100">
+                <div className="position-relative z-index-10">
+                  <h3 className="text-white line-height-1 mb-4">
+                   About us
+                  </h3>
+                </div>
+                <Row>
+                  <Col xs={12} sm={12} md={6}>
+                    <p className="d-inline text-white">
+                      Pharmaqio structure comprises of a management team with
+                      the Managing Director/Chief Executive Officer responsible
+                      for running the organization with support from the
+                      Executive Committee which has representation from key
+                      areas of Pharmaqio, including Human Resource Development,
+                      Strategic Planning and Business Development, Marketing and
+                      Sales, Plant Operations, Quality Operations, Finance,
+                      Information Technology, and Supply Chain. With a sense of
+                      responsibility, this team guides and motivates people,
+                      builds their efforts, and makes them challenge their own
+                      potential, resulting in nothing but the very best they
+                      have to offer in the work they are carrying out.
+                    </p>
+                  </Col>
+                  <Col xs={12} sm={12} md={6}>
+                    <p className="d-inline text-white">
+                      The work culture at Pharmaqio involves a participative
+                      approach through effective structures and systems in a
+                      sound and stable work environment. Employees are provided
+                      guidance, motivation and timely feedback which
+                      collectively develops in them a sense of pride. Since they
+                      understand the importance of their role in the outcome,
+                      they take ownership and become valuable team members in
+                      their respective work domains eventually resulting in
+                      accomplishing personal as well as organizational
+                      objectives.
+                    </p>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+          </Container>
+        </section>
+        <section id="homepage-section-3-main-wrapper">
           <div className="container h-100">
             <div
               id="trigger-service-text"
               className="d-flex align-content-center justify-content-center flex-column h-100"
             >
-              <div className="section-text-animation initial-opacity-transform text-center content-wrapper mb-4">
-                <div className="mb-3">
-                  <h4 className="text-white">Our Services</h4>
+              <div className="section-text-animation initial-opacity-transform content-wrapper mb-4">
+                <div className="mb-3 text-center">
+                  <h4 className="text-white">Our Visson</h4>
                 </div>
-                <div>
+                <div className="text-left">
                   <p>
-                    X-96 is a one-stop-shop to meet all your MarCom & Design needs. From initial concept design to building a strong brand image, we empower enterprises of all sizes to have an impactful digital presence.
+                    To deliver high quality products aiming to enrich patient’s
+                    quality of Life, focusing on un met medical needs and to be
+                    the quality landmark in the pharmaceutical industry
                   </p>
+                  <p>
+                    Pharmaqio is one of the pharmaceutical company in Pakistan,
+                    started its operations in 2023. Pharmaqio products are
+                    manufactured at its state of the art, cGMP approved
+                    pharmaceutical plant at Rawalpindi and tested at its Quality
+                    Control Laboratory. The company’s therapeutic segments in
+                    Pakistan include the following:
+                  </p>
+                  <ul className="d-flex row">
+                    <li className="col-12 col-sm-6 col-md-3">Analgesic</li>
+                    <li className="col-12 col-sm-6 col-md-3">Anti-Asthmatic</li>
+                    <li className="col-12 col-sm-6 col-md-3">
+                      Anti-convulsant
+                    </li>
+                    <li className="col-12 col-sm-6 col-md-3">Anti-Diabetic</li>
+                    <li className="col-12 col-sm-6 col-md-3">
+                      Anti-Fibrinolytic
+                    </li>
+                    <li className="col-12 col-sm-6 col-md-3">
+                      Anti-Hypertensive
+                    </li>
+                    <li className="col-12 col-sm-6 col-md-3">Anti-Lipidemic</li>
+                    <li className="col-12 col-sm-6 col-md-3">Anti-Malarial</li>
+                    <li className="col-12 col-sm-6 col-md-3">Anti-Obesity</li>
+                    <li className="col-12 col-sm-6 col-md-3">Anti-Rheumatic</li>
+                    <li className="col-12 col-sm-6 col-md-3">Anti-Ulcerants</li>
+                    <li className="col-12 col-sm-6 col-md-3">Antibiotics</li>
+                    <li className="col-12 col-sm-6 col-md-3">Antiallergics</li>
+                    <li className="col-12 col-sm-6 col-md-3">
+                      Cephalosporin Antibiotics
+                    </li>
+                    <li className="col-12 col-sm-6 col-md-3">Antidepressant</li>
+                    <li className="col-12 col-sm-6 col-md-3">Antiemetics</li>
+                    <li className="col-12 col-sm-6 col-md-3">
+                      Corticosteroids
+                    </li>
+                    <li className="col-12 col-sm-6 col-md-3">Antifungal </li>
+                    <li className="col-12 col-sm-6 col-md-3">
+                      Anti-Histamine &
+                    </li>
+                    <li className="col-12 col-sm-6 col-md-3">Multivitamins</li>
+                  </ul>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section id="homepage-section-4-square-main-wrapper">
+          <div className="container h-100">
+            <div
+              id="trigger-service-text"
+              className="d-flex align-content-center justify-content-center flex-column h-100"
+            >
               <div className="services-cards-main-wrapper">
                 <div id="services-block-first-trigger"></div>
                 <Row>
-                  <Col md={6}>
-                    <HashLink onMouseEnter={() => animationService.fadeServicesCardOnHover('.services-card-1')} onMouseLeave={() => animationService.fadeServicesCardOnHoverOut()} to='services/#designStudioService'>
+                  <Col md={12}>
+                    <HashLink
+                      onMouseEnter={() =>
+                        animationService.fadeServicesCardOnHover(
+                          ".services-card-1"
+                        )
+                      }
+                      onMouseLeave={() =>
+                        animationService.fadeServicesCardOnHoverOut()
+                      }
+                    >
                       <div className="services-card-wrapper home-design-studio services-card-1 position-relative border-radius-10 overflow-hidden">
-                        <div className='position-relative z-index-10'>
+                        <div className="position-relative z-index-10">
                           <h3 className="text-white line-height-1 mb-4">
-                            Design
-                            <br />
-                            Studio
+                            Build Your Future In A Company That Develops &
+                            Empowers You To Grow
                           </h3>
                         </div>
-                        <div className='position-relative z-index-10'>
+                        <div className="position-relative z-index-10">
                           <p className="text-white">
-                            Exciting visuals that instill consumer interest and help you develop a unique brand. Our focus is to build or elevate brands, bespoke to your requirements.
-                          </p>
-                          <p className='learn-more text-white font-eina-bold'>
-                            Learn more
+                            Dedicated to recruiting the best qualified
+                            professionals, our people are the driving force
+                            behind our success. At Pharmaqio, there is a strong
+                            emphasis on individual and professional development
+                            of employees through trainings, feedback and the
+                            individual’s ability and willingness to take
+                            additional responsibility.
                           </p>
                         </div>
                         <div className="images-wrapper">
@@ -627,126 +802,120 @@ class Home extends React.Component {
                       </div>
                     </HashLink>
                   </Col>
-                  <Col md={6}>
-                    <HashLink onMouseEnter={() => animationService.fadeServicesCardOnHover('.services-card-2')} onMouseLeave={() => animationService.fadeServicesCardOnHoverOut()} to='services/#digitalMarketingService'>
-                      <div className="services-card-wrapper services-card-2 position-relative border-radius-10 overflow-hidden">
-                        <div className='position-relative z-index-10'>
-                          <h3 className="text-white line-height-1 mb-4">
-                            Digital
-                            <br />
-                            Marketing
-                          </h3>
-                        </div>
-                        <div className='position-relative z-index-10'>
-                          <p className="text-white">
-                            Exponential growth in customers and leads as your brand visibility increases through creative marketing and appealing presence on multiple mind-share platforms.
-                          </p>
-                          <p className='learn-more text-white font-eina-bold'>
-                            Learn more
-                          </p>
-                        </div>
-                        <div className="images-wrapper">
-                        <div className="text-right right-to-left position-absolute">
-                            <img width="280"
-                              src={constants.ui.images.servicesCardEle2_1}
-                              alt=""
-                            />
-                          </div>
-                          <div className="text-right bottom-up position-absolute">
-                            <img
-                              width="400"
-                              src={constants.ui.images.servicesCardEle2_2}
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </HashLink>
-                  </Col>
-                  <div id="services-block-second-trigger"></div>
-                  <Col className="pt-4" md={6}>
-                    <HashLink onMouseEnter={() => animationService.fadeServicesCardOnHover('.services-card-3')} onMouseLeave={() => animationService.fadeServicesCardOnHoverOut()} to='services/#technicalWritingService'>
-                      <div className="services-card-wrapper services-card-3 position-relative border-radius-10 overflow-hidden">
-                      <div className='position-relative z-index-10'>
-                          <h3 className="text-white line-height-1 mb-4">
-                            Technical
-                            <br />
-                            Writing
-                          </h3>
-                        </div>
-                        <div className='position-relative z-index-10'>
-                          <p className="text-white">
-                            Exceptionally well written content that builds a connection with your customers, educates them about your product and converts them into valuable leads.
-                          </p>
-                          <p className='learn-more text-white font-eina-bold'>
-                            Learn more
-                          </p>
-                        </div>
-                        <div className="images-wrapper">
-                          <div className="text-right right-to-left position-absolute">
-                            <img
-                              width="250"
-                              src={constants.ui.images.servicesCardEle3_1}
-                              alt=""
-                            />
-                          </div>
-                          <div
-                            className="text-right bottom-up position-absolute-right-bottom-0"
-                          >
-                            <img
-                              width="180"
-                              src={constants.ui.images.servicesCardEle3_2}
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </HashLink>
-                  </Col>
-                  <Col className="pt-4" md={6}>
-                    <HashLink onMouseEnter={() => animationService.fadeServicesCardOnHover('.services-card-4')} onMouseLeave={() => animationService.fadeServicesCardOnHoverOut()} to='services/#webDevService'>
-                      <div className="services-card-wrapper services-card-4 position-relative border-radius-10 overflow-hidden">
-                      <div className='position-relative z-index-10'>
-                          <h3 className="text-white line-height-1 mb-4">
-                            Website
-                            <br />
-                            Development
-                          </h3>
-                        </div>
-                        <div className='position-relative z-index-10'>
-                          <p className="text-white">
-                            Exclusive website development from concept to launch. We work on well known website platforms or build one from the ground up covering all bases.
-                          </p>
-                          <p className='learn-more text-white font-eina-bold'>
-                            Learn more
-                          </p>
-                        </div>
-                        <div className="images-wrapper">
-                          <div className="text-right right-to-left position-absolute">
-                            <img
-                              width="250"
-                              src={constants.ui.images.servicesCardEle4_1}
-                              alt=""
-                            />
-                          </div>
-                          <div className="text-right bottom-up position-absolute">
-                            <img
-                              width="350"
-                              src={constants.ui.images.servicesCardEle4_2}
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </HashLink>
-                  </Col>
                 </Row>
               </div>
             </div>
           </div>
         </section>
-        <Element id='our-portfolio' name='our-portfolio'></Element>
-        <section
+        <section id="homepage-section-5-square-main-wrapper">
+          <div className="container h-100">
+            <div
+              id="trigger-service-text-5"
+              className="d-flex align-content-center justify-content-center flex-column h-100"
+            >
+              <div className="section-text-animation initial-opacity-transform content-wrapper mb-4">
+                <div className="mb-3 text-center ">
+                  <h4 className="text-white">
+                    Corporate Social Responsibility
+                  </h4>
+                </div>
+                <div>
+                  <p>
+                    At Pharmaqio we are committed to sharing our success with
+                    the community at large, particularly with the
+                    underprivileged segments.
+                  </p>
+                  <p>
+                    The primary goal of our Corporate Social Responsibility
+                    (CSR) model is to successfully integrate corporate
+                    responsibility concerns: social, environmental and economic,
+                    into the company’s values, culture, operations and business
+                    decisions at all levels. This is how we envision our
+                    corporate social responsibility: doing business ethically
+                    and in an environmentally and socially responsible manner,
+                    while safeguarding growth and profits in line with the
+                    expectations of our stakeholders.
+                  </p>
+                  <p>
+                    Pharmaqio’s Corporate Social Responsibility (CSR)
+                    initiatives are divided into four broad categories:
+                  </p>
+                  <ul className="">
+                    <li>Preservation of our Cultural Heritage</li>
+                    <li>
+                      Education and Skill building for the Underprivileged
+                    </li>
+                    <li>Preservation of the Environment</li>
+                    <li>Health for the Under privileged</li>
+                  </ul>
+                  <p>
+                    Pharmaqio is proud to contribute to these programs to ensure
+                    long-term benefits for the people directly and indirectly
+                    impacted by our practices.
+                  </p>
+                  <p>
+                    We believe that our commitment to CSR is essential to our
+                    long-term success and will help us to create enduring value
+                    for all our stakeholders, while also driving positive social
+                    and environmental outcomes worldwide.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="homepage-section-6-square-main-wrapper">
+          <div className="container h-100">
+            <div
+              id="trigger-service-text-6"
+              className="d-flex align-content-center justify-content-center flex-column h-100"
+            >
+              <div className="section-text-animation initial-opacity-transform content-wrapper mb-4">
+                <div className="mb-3 text-center ">
+                  <h4 className="text-white">Products</h4>
+                </div>
+                <div>
+                  <div>
+                    {products.map((section, index) => (
+                      <>
+                        <p>Section {index + 1}</p>
+                        <div className="table-container">
+                          <Table responsive>
+                            <thead>
+                              <tr>
+                                <th>#</th>
+                                <th>Product Name</th>
+                                <th>Category</th>
+                                <th>Strength</th>
+                                <th>Pack Size</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {section.map((item) => (
+                                <>
+                                  <tr>
+                                    <td>{item.SNo}</td>
+                                    <td>{item.ProductName}</td>
+                                    <td>{item.Category}</td>
+                                    <td>{item.Strength}</td>
+                                    <td>{item.PackSize}</td>
+                                  </tr>
+                                </>
+                              ))}
+                            </tbody>
+                          </Table>
+                        </div>
+                      </>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <Element id="our-portfolio" name="our-portfolio"></Element>
+        
+         <section
           id="homepage-section-4-main-wrapper"
           className="bg-color-mirage"
         >
@@ -980,19 +1149,8 @@ class Home extends React.Component {
         <Element id='testimonials' name='testimonials'></Element>
         <section id="home-testimonial-section" className="bg-color-mirage">
           <Testimonials content={this.state.testimonials} />
-        </section>
-        <section id='home-technology-section' className='bg-color-mirage'>
-          <Container>
-              <div className="technology-stack-wrapper fade-linear-gradient">
-                <div className="content-wrapper text-center d-flex justify-content-center text-center align-items-center w-100">
-                  <h4 className="text-white mb-0 font-eina-bold">
-                      We use cutting-edge technologies to bring out the best for
-                      you!
-                  </h4>
-                </div>
-              </div>
-          </Container>
         </section> */}
+
         <ContactUsComponent />
         <ScrollToTop />
       </Fragment>
