@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9c947c013793832a0ca6fb16917408d",
+    "revision": "37a2d92a55016bd9d560b04de12aab2c",
     "url": "/pharmaqio/index.html"
   },
   {
-    "revision": "778cf0626fdb477458e2",
+    "revision": "7f21b49197f954f6075d",
     "url": "/pharmaqio/static/css/2.277ec499.chunk.css"
   },
   {
-    "revision": "7e1aebb0e57369c3f12e",
-    "url": "/pharmaqio/static/css/main.7326c23f.chunk.css"
+    "revision": "bf41ad334285eee14aa1",
+    "url": "/pharmaqio/static/css/main.ae92c7b3.chunk.css"
   },
   {
-    "revision": "778cf0626fdb477458e2",
-    "url": "/pharmaqio/static/js/2.34d606b0.chunk.js"
+    "revision": "7f21b49197f954f6075d",
+    "url": "/pharmaqio/static/js/2.ffdf821c.chunk.js"
   },
   {
     "revision": "45696333e7437446501165d1b37efe3a",
-    "url": "/pharmaqio/static/js/2.34d606b0.chunk.js.LICENSE.txt"
+    "url": "/pharmaqio/static/js/2.ffdf821c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e1aebb0e57369c3f12e",
-    "url": "/pharmaqio/static/js/main.070d6d86.chunk.js"
+    "revision": "bf41ad334285eee14aa1",
+    "url": "/pharmaqio/static/js/main.2f7857d1.chunk.js"
   },
   {
     "revision": "94dc665738dc83f843a3",
@@ -388,10 +388,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pharmaqio/static/media/loader-animation.3a6a46b3.svg"
   },
   {
-    "revision": "3a4cf8a37bf89bf0a92144547de6a02d",
-    "url": "/pharmaqio/static/media/logos-technology.3a4cf8a3.png"
-  },
-  {
     "revision": "3b2ca6c1258236a22477aae8cd481bd5",
     "url": "/pharmaqio/static/media/marketing-collateral-1.3b2ca6c1.jpg"
   },
@@ -602,10 +598,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2919b47f2af42b0650d2b1df96cee874",
     "url": "/pharmaqio/static/media/tech-writing-usis-procon-case-study-slide-image.2919b47f.png"
-  },
-  {
-    "revision": "68ec6630eaba3b4ebed50903f2f488c5",
-    "url": "/pharmaqio/static/media/technologies-footer-mobile.68ec6630.png"
   },
   {
     "revision": "ec2fd7b58496a6ba18f79354148df61a",

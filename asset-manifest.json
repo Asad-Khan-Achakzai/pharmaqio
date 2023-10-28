@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pharmaqio/static/css/main.7326c23f.chunk.css",
-    "main.js": "/pharmaqio/static/js/main.070d6d86.chunk.js",
-    "main.js.map": "/pharmaqio/static/js/main.070d6d86.chunk.js.map",
+    "main.css": "/pharmaqio/static/css/main.ae92c7b3.chunk.css",
+    "main.js": "/pharmaqio/static/js/main.2f7857d1.chunk.js",
+    "main.js.map": "/pharmaqio/static/js/main.2f7857d1.chunk.js.map",
     "runtime-main.js": "/pharmaqio/static/js/runtime-main.ab4c7044.js",
     "runtime-main.js.map": "/pharmaqio/static/js/runtime-main.ab4c7044.js.map",
     "static/css/2.277ec499.chunk.css": "/pharmaqio/static/css/2.277ec499.chunk.css",
-    "static/js/2.34d606b0.chunk.js": "/pharmaqio/static/js/2.34d606b0.chunk.js",
-    "static/js/2.34d606b0.chunk.js.map": "/pharmaqio/static/js/2.34d606b0.chunk.js.map",
+    "static/js/2.ffdf821c.chunk.js": "/pharmaqio/static/js/2.ffdf821c.chunk.js",
+    "static/js/2.ffdf821c.chunk.js.map": "/pharmaqio/static/js/2.ffdf821c.chunk.js.map",
     "index.html": "/pharmaqio/index.html",
-    "precache-manifest.967dfa729eb9c438570600db169fad72.js": "/pharmaqio/precache-manifest.967dfa729eb9c438570600db169fad72.js",
+    "precache-manifest.3e9348974dcc6143adfaffd83fa23594.js": "/pharmaqio/precache-manifest.3e9348974dcc6143adfaffd83fa23594.js",
     "service-worker.js": "/pharmaqio/service-worker.js",
     "static/css/2.277ec499.chunk.css.map": "/pharmaqio/static/css/2.277ec499.chunk.css.map",
-    "static/css/main.7326c23f.chunk.css.map": "/pharmaqio/static/css/main.7326c23f.chunk.css.map",
-    "static/js/2.34d606b0.chunk.js.LICENSE.txt": "/pharmaqio/static/js/2.34d606b0.chunk.js.LICENSE.txt",
+    "static/css/main.ae92c7b3.chunk.css.map": "/pharmaqio/static/css/main.ae92c7b3.chunk.css.map",
+    "static/js/2.ffdf821c.chunk.js.LICENSE.txt": "/pharmaqio/static/js/2.ffdf821c.chunk.js.LICENSE.txt",
     "static/media/404.svg": "/pharmaqio/static/media/404.0461497f.svg",
     "static/media/Alkira-Case-Study-desktop.webm": "/pharmaqio/static/media/Alkira-Case-Study-desktop.947c4bab.webm",
     "static/media/Alkira-case-study-mobile.mp4": "/pharmaqio/static/media/Alkira-case-study-mobile.6fc50336.mp4",
@@ -88,7 +88,7 @@
     "static/media/high-fd-slider-3.jpg": "/pharmaqio/static/media/high-fd-slider-3.d74bbdae.jpg",
     "static/media/high-fd-slider-4.jpg": "/pharmaqio/static/media/high-fd-slider-4.b842c1bf.jpg",
     "static/media/homepage-section1-bg.jpg": "/pharmaqio/static/media/homepage-section1-bg.d921b499.jpg",
-    "static/media/responsive.scss": "/pharmaqio/static/media/technologies-footer-mobile.68ec6630.png",
+    "static/media/responsive.scss": "/pharmaqio/static/media/homepage-section1-mobile.458df203.svg",
     "static/media/iconography.jpg": "/pharmaqio/static/media/iconography.d406316c.jpg",
     "static/media/ipad-design-slider-1.png": "/pharmaqio/static/media/ipad-design-slider-1.e5bc43d1.png",
     "static/media/ipad-design-slider-2.png": "/pharmaqio/static/media/ipad-design-slider-2.27adc035.png",
@@ -171,8 +171,8 @@
   "entrypoints": [
     "static/js/runtime-main.ab4c7044.js",
     "static/css/2.277ec499.chunk.css",
-    "static/js/2.34d606b0.chunk.js",
-    "static/css/main.7326c23f.chunk.css",
-    "static/js/main.070d6d86.chunk.js"
+    "static/js/2.ffdf821c.chunk.js",
+    "static/css/main.ae92c7b3.chunk.css",
+    "static/js/main.2f7857d1.chunk.js"
   ]
 }
