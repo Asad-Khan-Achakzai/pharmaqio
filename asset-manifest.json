@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pharmaqio/static/css/main.ae92c7b3.chunk.css",
-    "main.js": "/pharmaqio/static/js/main.2f7857d1.chunk.js",
-    "main.js.map": "/pharmaqio/static/js/main.2f7857d1.chunk.js.map",
+    "main.js": "/pharmaqio/static/js/main.04699c0b.chunk.js",
+    "main.js.map": "/pharmaqio/static/js/main.04699c0b.chunk.js.map",
     "runtime-main.js": "/pharmaqio/static/js/runtime-main.ab4c7044.js",
     "runtime-main.js.map": "/pharmaqio/static/js/runtime-main.ab4c7044.js.map",
     "static/css/2.277ec499.chunk.css": "/pharmaqio/static/css/2.277ec499.chunk.css",
     "static/js/2.ffdf821c.chunk.js": "/pharmaqio/static/js/2.ffdf821c.chunk.js",
     "static/js/2.ffdf821c.chunk.js.map": "/pharmaqio/static/js/2.ffdf821c.chunk.js.map",
     "index.html": "/pharmaqio/index.html",
-    "precache-manifest.3e9348974dcc6143adfaffd83fa23594.js": "/pharmaqio/precache-manifest.3e9348974dcc6143adfaffd83fa23594.js",
+    "precache-manifest.85c942eded33fdbc5e463c6795e39b30.js": "/pharmaqio/precache-manifest.85c942eded33fdbc5e463c6795e39b30.js",
     "service-worker.js": "/pharmaqio/service-worker.js",
     "static/css/2.277ec499.chunk.css.map": "/pharmaqio/static/css/2.277ec499.chunk.css.map",
     "static/css/main.ae92c7b3.chunk.css.map": "/pharmaqio/static/css/main.ae92c7b3.chunk.css.map",
@@ -173,6 +173,6 @@
     "static/css/2.277ec499.chunk.css",
     "static/js/2.ffdf821c.chunk.js",
     "static/css/main.ae92c7b3.chunk.css",
-    "static/js/main.2f7857d1.chunk.js"
+    "static/js/main.04699c0b.chunk.js"
   ]
 }
